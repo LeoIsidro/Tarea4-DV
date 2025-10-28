@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background: #ffffff;
+}
+
+.header {
+    background: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.header-question {
+    font-size: 18px;
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 6px;
+    border-left: 4px solid #4CAF50;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dropdown {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    font-size: 14px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    background: #fafafa;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    padding: 5px;
+    height: 45vh; /* Altura reducida para dejar espacio cuando hay hero a pantalla completa */
+    min-height: 300px; /* Altura mínima */
+}
+
+/* Hero / gráfico grande a pantalla completa */
+.hero-chart {
+    width: 100%;
+    height: 100vh; /* ocupa toda la altura de la ventana */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #ffffff 0%, #f6f9ff 60%);
+    border-bottom: 1px solid #e0e6f3;
+}
+
+.hero-inner {
+    text-align: center;
+    max-width: 1000px;
+    padding: 20px 30px;
+    color: #1f2937;
+}
+
+.hero-inner h1 {
+    margin: 0 0 8px 0;
+    font-size: 36px;
+    color: #0b3b66;
+}
+
+.hero-inner p {
+    margin: 0;
+    font-size: 16px;
+    color: #334155;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.shared-legend {
+    grid-column: 1 / -1; /* Ocupa todo el ancho disponible */
+    text-align: center;
+    padding: 15px 20px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.shared-legend h4 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.shared-legend-ordinal {
+    grid-column: 1 / -1; /* Ocupa todo el ancho disponible */
+    text-align: center;
+    padding: 15px 20px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.shared-legend-ordinal h4 {
+    margin: 0 0 15px 0;
+    color: #333;
+    font-size: 16px;
+}

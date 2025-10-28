@@ -1,0 +1,5 @@
+Flask==2.3.3
+Werkzeug==2.3.7
+Pandas==2.1.4
+NumPy==1.26.4
+requests==2.31.0

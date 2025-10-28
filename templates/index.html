@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Matius y Leo y Cristian</title>
+ <script src="https://d3js.org/d3.v7.min.js"></script>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+  <!-- Hero / gráfico grande a pantalla completa -->
+  <div id="HeroChart" class="hero-chart">
+    <!-- El contenido se renderizará dinámicamente con D3.js -->
+  </div>
+
+ <div class="header">
+   <div class="header-top">
+     <h2>Tareas</h2>
+     <select class="dropdown" id="chartSelector">
+       <option value="Task1">Task 1</option>
+       <option value="Task2">Task 2</option>
+       <option value="Task3">Task 3</option>
+     </select>
+   </div>
+   <div class="header-question" id="questionText">
+     1. ¿Qué características fueron las más influyentes en las canciones a lo largo de los años?
+   </div>
+ </div>
+
+ <div class="content">
+   <div class="box" id="RadViz">RadViz</div>
+   <div class="box" id="StarCoordinates">Star Coordinates</div>
+   <div class="box" id="Correlation">Correlation</div>
+   <div class="box" id="ParallelCoordinates">Parallel Coordinates</div>
+   <div class="box" id="PCA">PCA</div>
+   <div class="shared-legend" id="sharedLegend" style="display: none;">
+     <h4>Leyenda Compartida - Escala Temporal</h4>
+   </div>
+   <div class="shared-legend-ordinal" id="sharedLegendOrdinal" style="display: none;">
+     <h4>Leyenda Compartida - Géneros Musicales</h4>
+   </div>
+ </div>
+
+ <script src="{{ url_for('static', filename='js/NetworkGraph.js') }}"></script>
+ <script src="{{ url_for('static', filename='js/RadViz.js') }}"></script>
+ <script src="{{ url_for('static', filename='js/Correlation.js') }}"></script>
+ <script src="{{ url_for('static', filename='js/StarCoordinates.js') }}"></script>
+ <script src="{{ url_for('static', filename='js/ParallelCoordinates.js') }}"></script>
+ <script src="{{ url_for('static', filename='js/PCA.js') }}"></script>
+ <script>
+   // Mapeo de preguntas por tarea
+   const taskQuestions = {
+     'Task1': '1. ¿Qué características fueron las más influyentes en las canciones a lo largo de los años?',
+     'Task2': '2. ¿Qué característica presenta mayor influencia en los géneros musicales?',
+     'Task3': '3. ¿Que tanto han variado las características en las canciones a lo largo de las decadas?'
+   };
+
+   // Función para actualizar el título de la pregunta
+   function updateQuestionTitle(task) {
+     const questionElement = document.getElementById('questionText');
+     questionElement.textContent = taskQuestions[task];
+   }
+
+   // Función para limpiar los contenedores de gráficos
+   function clearAllCharts() {
+     document.getElementById('RadViz').innerHTML = '';
+     document.getElementById('Correlation').innerHTML = '';
+     document.getElementById('StarCoordinates').innerHTML = '';
+     document.getElementById('ParallelCoordinates').innerHTML = '';
+     document.getElementById('PCA').innerHTML = '';
+     document.getElementById('sharedLegend').innerHTML = '<h4>Leyenda Compartida - Escala Temporal</h4>';
+     document.getElementById('sharedLegendOrdinal').innerHTML = '<h4>Leyenda Compartida - Géneros Musicales</h4>';
+   }
+
+   // Función para crear la leyenda compartida horizontal
+   function createSharedLegend(data, colorKey) {
+     const container = document.getElementById('sharedLegend');
+     if (!container) return;
+
+     // Obtener valores únicos y ordenarlos
+     const values = Array.from(new Set(data.map(d => d[colorKey]))).sort();
+     console.log('SharedLegend - Valores:', values);
+
+     // Usar la misma escala de colores del PCA
+     const colorScale = d3.scaleSequential(d3.interpolateViridis)
+       .domain(d3.extent(values));
+
+     const legendWidth = 500;
+     const legendHeight = 80;
+     const margin = { top: 30, right: 30, bottom: 35, left: 30 };
+
+     const svg = d3.select('#sharedLegend')
+       .append('svg')
+       .attr('width', legendWidth)
+       .attr('height', legendHeight)
+       .style('display', 'block')
+       .style('margin', '0 auto');
+       
+
+     const g = svg.append('g')
+       .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+     // Crear gradiente horizontal
+     const defs = svg.append('defs');
+     const gradient = defs.append('linearGradient')
+       .attr('id', 'shared-gradient')
+       .attr('x1', '0%')
+       .attr('y1', '0%')
+       .attr('x2', '100%')
+       .attr('y2', '0%');
+
+     const numStops = 20;
+     for (let i = 0; i <= numStops; i++) {
+       const offset = (i / numStops) * 100;
+       const value = values[0] + (values[values.length - 1] - values[0]) * (i / numStops);
+       gradient.append('stop')
+         .attr('offset', `${offset}%`)
+         .attr('stop-color', colorScale(value));
+     }
+
+     // Rectángulo del gradiente
+     const barWidth = legendWidth - margin.left - margin.right;
+     const barHeight = 20;
+     
+     g.append('rect')
+       .attr('width', barWidth)
+       .attr('height', barHeight)
+       .style('fill', 'url(#shared-gradient)')
+       .style('stroke', '#333')
+       .style('stroke-width', 1);
+
+     // Escala para las etiquetas
+     const xScale = d3.scaleLinear()
+       .domain(d3.extent(values))
+       .range([0, barWidth]);
+
+     // Eje con etiquetas
+     const xAxis = d3.axisBottom(xScale)
+       .ticks(8)
+       .tickFormat(d3.format('d'));
+
+     g.append('g')
+       .attr('transform', `translate(0, ${barHeight})`)
+       .call(xAxis);
+
+     // Título de la leyenda
+     const titleText = colorKey === 'year' ? 'Año' : 
+                       colorKey === 'decada' ? 'Década' : 
+                       colorKey;
+     
+     g.append('text')
+       .attr('x', barWidth / 2)
+       .attr('y', -8)
+       .attr('text-anchor', 'middle')
+       .style('font-size', '14px')
+       .style('font-weight', 'bold')
+       .style('fill', '#333')
+       .text(titleText);
+   }
+
+   // Función para crear la leyenda compartida ordinal (Task 2)
+   function createSharedOrdinalLegend(data, colorKey) {
+     const container = document.getElementById('sharedLegendOrdinal');
+     if (!container) return;
+
+     // Obtener valores únicos y ordenarlos
+     const values = Array.from(new Set(data.map(d => d[colorKey]))).sort();
+     console.log('SharedOrdinalLegend - Valores:', values);
+
+     // Usar la misma escala de colores ordinal del ParallelCoordinates
+     const colorScale = d3.scaleOrdinal(d3.schemeCategory10).domain(values);
+
+     // Calcular dimensiones dinámicamente
+     const itemsPerRow = 5;
+     const numRows = Math.ceil(values.length / itemsPerRow);
+     const itemWidth = 120;
+     const itemHeight = 25;
+     const legendWidth = itemsPerRow * itemWidth + 40;
+     const legendHeight = numRows * itemHeight + 40;
+     const margin = { top: 15, right: 20, bottom: 15, left: 20 };
+
+     const svg = d3.select('#sharedLegendOrdinal')
+       .append('svg')
+       .attr('width', legendWidth)
+       .attr('height', legendHeight)
+       .style('display', 'block')
+       .style('margin', '0 auto');
+
+     const g = svg.append('g')
+       .attr('transform', `translate(${margin.left}, ${margin.top})`);
+
+     // Crear elementos de leyenda
+     const legendItems = g.selectAll('.legend-item')
+       .data(values)
+       .enter().append('g')
+       .attr('class', 'legend-item')
+       .attr('transform', (d, i) => {
+         const row = Math.floor(i / itemsPerRow);
+         const col = i % itemsPerRow;
+         const x = col * itemWidth;
+         const y = row * itemHeight;
+         return `translate(${x}, ${y})`;
+       });
+
+     // Círculos de colores
+     legendItems.append('circle')
+       .attr('cx', 8)
+       .attr('cy', itemHeight / 2)
+       .attr('r', 6)
+       .attr('fill', d => colorScale(d))
+       .attr('stroke', '#333')
+       .attr('stroke-width', 1);
+
+     // Texto de las etiquetas
+     legendItems.append('text')
+       .attr('x', 20)
+       .attr('y', itemHeight / 2)
+       .attr('dominant-baseline', 'middle')
+       .style('font-size', '11px')
+       .style('font-family', 'sans-serif')
+       .style('fill', '#333')
+       .text(d => d.length > 12 ? d.substring(0, 12) + '...' : d);
+   }
+
+   // Función para mostrar/ocultar divs según la tarea
+   function showHideDivs(task) {
+     const radviz = document.getElementById('RadViz');
+     const starcoords = document.getElementById('StarCoordinates');
+     const correlation = document.getElementById('Correlation');
+     const parallelcoords = document.getElementById('ParallelCoordinates');
+     const pca = document.getElementById('PCA');
+     const sharedLegend = document.getElementById('sharedLegend');
+     const sharedLegendOrdinal = document.getElementById('sharedLegendOrdinal');
+     
+     // Ocultar todos primero
+     radviz.style.display = 'none';
+     starcoords.style.display = 'none';
+     correlation.style.display = 'none';
+     parallelcoords.style.display = 'none';
+     pca.style.display = 'none';
+     sharedLegend.style.display = 'none';
+     sharedLegendOrdinal.style.display = 'none';
+     
+     if (task === 'Task1') {
+       radviz.style.display = 'block';
+       correlation.style.display = 'block';
+     } else if (task === 'Task2') {
+       starcoords.style.display = 'block';
+       parallelcoords.style.display = 'block';
+       sharedLegendOrdinal.style.display = 'block';
+     } else if (task === 'Task3') {
+       pca.style.display = 'block';
+       parallelcoords.style.display = 'block';
+       sharedLegend.style.display = 'block';
+     }
+   }
+
+   // Función para cargar datos según la tarea seleccionada
+   function loadTaskData(task) {
+     // Limpiar gráficos anteriores y mostrar/ocultar divs apropiados
+     clearAllCharts();
+     showHideDivs(task);
+
+     if (task === 'Task1') {
+       // Cargar datos de popularidad para RadViz
+       fetch('/api/data_by_year')
+         .then(r => r.json())
+         .then(data => {
+           createRadViz(data, ['valence', 'acousticness', 'danceability', 'energy', 'explicit', 'instrumentalness', 'loudness', 'popularity', 'speechiness'], 'year');
+         })
+         .catch(error => console.error('Error al cargar data_by_year:', error));
+
+       // Cargar correlación para Correlation
+       fetch('/correlation_task1')
+         .then(r => r.json())
+         .then(data => {
+           createCorrelation(data);
+         })
+         .catch(error => console.error('Error al cargar correlation_task1:', error));
+
+     } else if (task === 'Task2') {
+       // Cargar datos de diversidad de artistas
+        fetch('/api/data_by_genre')
+          .then(r => r.json())
+          .then(data => {
+            // Usar 'popularity' como clave para colorear si no hay género
+            createStarCoordinates(data, ['valence', 'acousticness', 'danceability', 'energy', 'instrumentalness', 'loudness', 'popularity', 'speechiness'], 'genres');
+            createParallelCoordinates(data, ['valence', 'acousticness', 'danceability', 'energy', 'instrumentalness', 'loudness', 'popularity', 'speechiness'], 'genres', false);
+            createSharedOrdinalLegend(data, 'genres');
+          })
+          .catch(error => console.error('Error al cargar data_by_genre:', error));
+
+
+     } else if (task === 'Task3') {
+       // Cargar datos generales para PCA por año
+       fetch('/api/data')
+         .then(r => r.json())
+         .then(data => {
+           createPCA(data, ['valence', 'acousticness', 'danceability', 'energy', 'instrumentalness', 'loudness', 'popularity', 'speechiness'], 'decada');
+           createParallelCoordinates(data, ['valence', 'acousticness', 'danceability', 'energy', 'instrumentalness', 'loudness', 'popularity', 'speechiness'], 'decada', true);
+           createSharedLegend(data, 'decada');
+         })
+         .catch(error => console.error('Error al cargar data para Task3:', error));
+     }
+   }
+
+   // Cargar el gráfico de red en el hero al inicio
+   createNetworkGraph('#HeroChart');
+   
+   // Cargar datos iniciales (Task1)
+   loadTaskData('Task1');
+   
+   // Configurar divs visibles inicialmente
+   showHideDivs('Task1');
+
+   // Event listener para el dropdown
+   document.getElementById('chartSelector').addEventListener('change', function(e) {
+     const value = e.target.value;
+     updateQuestionTitle(value);
+     
+     // Cargar datos según la tarea seleccionada
+     loadTaskData(value);
+   });
+ </script>
+</body>
+</html>

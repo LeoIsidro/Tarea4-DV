@@ -1,0 +1,291 @@
+source_id,target_id,source_name,target_name,weight
+87,86,Eunice Villicaña Ortiz,Rafael Vera Pomalaza,0.8817999958992004
+74,9,Yamilet Rosario Serrano Llerena,Jesús Edwin Bellido Angulo,0.8687000274658203
+81,52,Jorge Tipe Villanueva,Angel Napa Bernuy,0.8605999946594238
+10,7,Carlos Alberto Benedetty Torres,Luis Bedriñana Mera,0.847100019454956
+23,63,Alberto Donayre Torres,Alejandra Ratti Parandelli,0.8346999883651733
+68,23,Ursula Rodriguez Zuñiga,Alberto Donayre Torres,0.8334000110626221
+31,33,Jorge Gonzalez Reaño,Juan Gabriel Gutierrez Alva,0.8330000042915344
+12,40,Jhedmar Jhonatan Callupe Luna,Dante Inga Narvaez,0.8319000005722046
+85,43,Emir Augusto Vela Saavedra,Wangdo Kim,0.8277000188827515
+60,87,Elmer Ramirez Quiroz,Eunice Villicaña Ortiz,0.8192999958992004
+4,54,Sergio Aranda Egusquiza,Moises Nuñez Ochoa,0.8177000284194946
+41,61,Elvis Jara Alegria,Oscar Ramos Ponce,0.8166000247001648
+23,6,Alberto Donayre Torres,Andrés Julián Arias Moreno,0.8144999742507935
+12,13,Jhedmar Jhonatan Callupe Luna,Ruth Canahuire Cabello,0.8101000189781189
+11,19,Juan Bueno Villanueva,Jose De La Puente Maldonado,0.8029999732971191
+9,45,Jesús Edwin Bellido Angulo,Cristian Lopez Del Alamo,0.7926999926567078
+33,81,Juan Gabriel Gutierrez Alva,Jorge Tipe Villanueva,0.791700005531311
+40,13,Dante Inga Narvaez,Ruth Canahuire Cabello,0.7886000275611877
+70,45,Heider Sánchez Enriquez,Cristian Lopez Del Alamo,0.7874000072479248
+26,34,Luis Ernesto Flores Luyo,Julio Gutierrez Alva,0.7835999727249146
+9,33,Jesús Edwin Bellido Angulo,Juan Gabriel Gutierrez Alva,0.7825999855995178
+44,3,Jose Larco Martinelli,Claudia Antonini Bova,0.7814000248908997
+12,39,Jhedmar Jhonatan Callupe Luna,Deyby Huamanchahua Canchanya,0.7807999849319458
+31,24,Jorge Gonzalez Reaño,Jose Fiestas Iquira,0.7799000144004822
+8,2,Omar Bejarano Grández,Helard Alvarez Sanchez,0.7788000106811523
+60,86,Elmer Ramirez Quiroz,Rafael Vera Pomalaza,0.774399995803833
+40,39,Dante Inga Narvaez,Deyby Huamanchahua Canchanya,0.7738000154495239
+45,74,Cristian Lopez Del Alamo,Yamilet Rosario Serrano Llerena,0.7731999754905701
+45,22,Cristian Lopez Del Alamo,Manuel Arturo Deza Figueroa,0.7720000147819519
+76,45,Aurea Rossy Soriano Vargas,Cristian Lopez Del Alamo,0.7705000042915344
+29,11,Oscar Gamonal Pajares,Juan Bueno Villanueva,0.7681999802589417
+70,9,Heider Sánchez Enriquez,Jesús Edwin Bellido Angulo,0.7674000263214111
+13,39,Ruth Canahuire Cabello,Deyby Huamanchahua Canchanya,0.767300009727478
+13,85,Ruth Canahuire Cabello,Emir Augusto Vela Saavedra,0.767300009727478
+68,63,Ursula Rodriguez Zuñiga,Alejandra Ratti Parandelli,0.7671999931335449
+31,9,Jorge Gonzalez Reaño,Jesús Edwin Bellido Angulo,0.765999972820282
+74,70,Yamilet Rosario Serrano Llerena,Heider Sánchez Enriquez,0.7642999887466431
+38,58,Rocío Hoyos Diaz,Alexander Peña Nevado,0.7613000273704529
+41,22,Elvis Jara Alegria,Manuel Arturo Deza Figueroa,0.7608000040054321
+41,70,Elvis Jara Alegria,Heider Sánchez Enriquez,0.7605999708175659
+41,45,Elvis Jara Alegria,Cristian Lopez Del Alamo,0.7601000070571899
+70,76,Heider Sánchez Enriquez,Aurea Rossy Soriano Vargas,0.7587000131607056
+8,47,Omar Bejarano Grández,José Luis Mantari Laureano,0.7581999897956848
+29,19,Oscar Gamonal Pajares,Jose De La Puente Maldonado,0.7562999725341797
+20,1,José Andrés De Leo Martínez,Grace Alexandrino Ocaña,0.7516000270843506
+84,7,Elba Rosaura Vazques Arrieta,Luis Bedriñana Mera,0.7508999705314636
+52,33,Angel Napa Bernuy,Juan Gabriel Gutierrez Alva,0.7505999803543091
+41,76,Elvis Jara Alegria,Aurea Rossy Soriano Vargas,0.7491999864578247
+11,26,Juan Bueno Villanueva,Luis Ernesto Flores Luyo,0.7484999895095825
+22,76,Manuel Arturo Deza Figueroa,Aurea Rossy Soriano Vargas,0.7450000047683716
+18,48,Antuané De La Flor Basterrechea,Giancarlo Marcone Flores,0.7444999814033508
+62,8,José Ramos Saravia,Omar Bejarano Grández,0.7425000071525574
+53,87,Julien Noel,Eunice Villicaña Ortiz,0.7422000169754028
+21,73,Jose Gerardo Deustua Rossel,José Santiváñez Guarniz,0.7419999837875366
+22,61,Manuel Arturo Deza Figueroa,Oscar Ramos Ponce,0.7386000156402588
+53,86,Julien Noel,Rafael Vera Pomalaza,0.7361999750137329
+12,41,Jhedmar Jhonatan Callupe Luna,Elvis Jara Alegria,0.7350999712944031
+2,47,Helard Alvarez Sanchez,José Luis Mantari Laureano,0.7346000075340271
+38,59,Rocío Hoyos Diaz,Sergio Quispe Rodriguez,0.7336000204086304
+63,69,Alejandra Ratti Parandelli,Harry Gustavo Saavedra Espinoza,0.7317000031471252
+74,33,Yamilet Rosario Serrano Llerena,Juan Gabriel Gutierrez Alva,0.7312999963760376
+27,41,Christian Flores Vega,Elvis Jara Alegria,0.7293999791145325
+18,20,Antuané De La Flor Basterrechea,José Andrés De Leo Martínez,0.7282999753952026
+20,48,José Andrés De Leo Martínez,Giancarlo Marcone Flores,0.7268000245094299
+74,12,Yamilet Rosario Serrano Llerena,Jhedmar Jhonatan Callupe Luna,0.7268000245094299
+6,68,Andrés Julián Arias Moreno,Ursula Rodriguez Zuñiga,0.7250000238418579
+55,11,Maria Belén Ortiz García,Juan Bueno Villanueva,0.7214999794960022
+80,54,Jimmy Tarrillo Olano,Moises Nuñez Ochoa,0.718999981880188
+25,57,Elena Flores Barreda,Carolina Parada Quinaya,0.7188000082969666
+34,74,Julio Gutierrez Alva,Yamilet Rosario Serrano Llerena,0.7185999751091003
+24,9,Jose Fiestas Iquira,Jesús Edwin Bellido Angulo,0.7172999978065491
+1,48,Grace Alexandrino Ocaña,Giancarlo Marcone Flores,0.7156999707221985
+23,40,Alberto Donayre Torres,Dante Inga Narvaez,0.7121000289916992
+23,43,Alberto Donayre Torres,Wangdo Kim,0.7088000178337097
+79,68,Francisco Tarazona Vásquez,Ursula Rodriguez Zuñiga,0.7062000036239624
+81,70,Jorge Tipe Villanueva,Heider Sánchez Enriquez,0.7060999870300293
+51,32,Monica Cristina Moreno Brush,Leo Guerrero,0.7055000066757202
+26,74,Luis Ernesto Flores Luyo,Yamilet Rosario Serrano Llerena,0.7045999765396118
+6,43,Andrés Julián Arias Moreno,Wangdo Kim,0.7010999917984009
+31,74,Jorge Gonzalez Reaño,Yamilet Rosario Serrano Llerena,0.7002999782562256
+62,2,José Ramos Saravia,Helard Alvarez Sanchez,0.6998000144958496
+17,33,Fabien Cornillier,Juan Gabriel Gutierrez Alva,0.6995000243186951
+27,12,Christian Flores Vega,Jhedmar Jhonatan Callupe Luna,0.6992999911308289
+26,55,Luis Ernesto Flores Luyo,Maria Belén Ortiz García,0.6984999775886536
+6,25,Andrés Julián Arias Moreno,Elena Flores Barreda,0.696399986743927
+22,70,Manuel Arturo Deza Figueroa,Heider Sánchez Enriquez,0.6955999732017517
+85,40,Emir Augusto Vela Saavedra,Dante Inga Narvaez,0.6949999928474426
+81,16,Jorge Tipe Villanueva,Xyoby Chavez Pacheco,0.6935999989509583
+24,33,Jose Fiestas Iquira,Juan Gabriel Gutierrez Alva,0.6929000020027161
+4,11,Sergio Aranda Egusquiza,Juan Bueno Villanueva,0.6926000118255615
+17,74,Fabien Cornillier,Yamilet Rosario Serrano Llerena,0.6916000247001648
+13,23,Ruth Canahuire Cabello,Alberto Donayre Torres,0.6904000043869019
+31,17,Jorge Gonzalez Reaño,Fabien Cornillier,0.6895999908447266
+26,19,Luis Ernesto Flores Luyo,Jose De La Puente Maldonado,0.6886000037193298
+83,23,Julio Ernesto Valdivia Silva,Alberto Donayre Torres,0.6884999871253967
+10,24,Carlos Alberto Benedetty Torres,Jose Fiestas Iquira,0.6869999766349792
+54,11,Moises Nuñez Ochoa,Juan Bueno Villanueva,0.6858000159263611
+43,13,Wangdo Kim,Ruth Canahuire Cabello,0.6833999752998352
+85,23,Emir Augusto Vela Saavedra,Alberto Donayre Torres,0.6823999881744385
+59,58,Sergio Quispe Rodriguez,Alexander Peña Nevado,0.682200014591217
+81,45,Jorge Tipe Villanueva,Cristian Lopez Del Alamo,0.6819000244140625
+52,70,Angel Napa Bernuy,Heider Sánchez Enriquez,0.6794000267982483
+56,38,Hermes Pantoja Carhuavilca,Rocío Hoyos Diaz,0.6787999868392944
+91,18,Carlos Zorrilla Aranguren,Antuané De La Flor Basterrechea,0.6782000064849854
+29,26,Oscar Gamonal Pajares,Luis Ernesto Flores Luyo,0.6779999732971191
+61,45,Oscar Ramos Ponce,Cristian Lopez Del Alamo,0.6772000193595886
+69,23,Harry Gustavo Saavedra Espinoza,Alberto Donayre Torres,0.6765999794006348
+27,22,Christian Flores Vega,Manuel Arturo Deza Figueroa,0.675000011920929
+76,30,Aurea Rossy Soriano Vargas,Germain García Zanabria,0.6743999719619751
+63,6,Alejandra Ratti Parandelli,Andrés Julián Arias Moreno,0.6740999817848206
+85,6,Emir Augusto Vela Saavedra,Andrés Julián Arias Moreno,0.6729999780654907
+4,12,Sergio Aranda Egusquiza,Jhedmar Jhonatan Callupe Luna,0.6729999780654907
+75,31,Igor Siveroni Salinas,Jorge Gonzalez Reaño,0.6723999977111816
+17,9,Fabien Cornillier,Jesús Edwin Bellido Angulo,0.6722000241279602
+61,27,Oscar Ramos Ponce,Christian Flores Vega,0.6711999773979187
+18,1,Antuané De La Flor Basterrechea,Grace Alexandrino Ocaña,0.6711000204086304
+54,12,Moises Nuñez Ochoa,Jhedmar Jhonatan Callupe Luna,0.6711000204086304
+10,84,Carlos Alberto Benedetty Torres,Elba Rosaura Vazques Arrieta,0.6705999970436096
+61,12,Oscar Ramos Ponce,Jhedmar Jhonatan Callupe Luna,0.6693000197410583
+50,22,Rensso Victor Hugo Mora Colque,Manuel Arturo Deza Figueroa,0.6686999797821045
+19,55,Jose De La Puente Maldonado,Maria Belén Ortiz García,0.6675999760627747
+32,73,Leo Guerrero,José Santiváñez Guarniz,0.6672999858856201
+29,55,Oscar Gamonal Pajares,Maria Belén Ortiz García,0.6668000221252441
+58,32,Alexander Peña Nevado,Leo Guerrero,0.6664000153541565
+30,45,Germain García Zanabria,Cristian Lopez Del Alamo,0.6662999987602234
+32,21,Leo Guerrero,Jose Gerardo Deustua Rossel,0.6662999987602234
+55,12,Maria Belén Ortiz García,Jhedmar Jhonatan Callupe Luna,0.6643000245094299
+32,38,Leo Guerrero,Rocío Hoyos Diaz,0.6639000177383423
+60,29,Elmer Ramirez Quiroz,Oscar Gamonal Pajares,0.660099983215332
+21,59,Jose Gerardo Deustua Rossel,Sergio Quispe Rodriguez,0.6596999764442444
+58,56,Alexander Peña Nevado,Hermes Pantoja Carhuavilca,0.6590999960899353
+73,58,José Santiváñez Guarniz,Alexander Peña Nevado,0.6586999893188477
+91,48,Carlos Zorrilla Aranguren,Giancarlo Marcone Flores,0.6583999991416931
+75,74,Igor Siveroni Salinas,Yamilet Rosario Serrano Llerena,0.6581000089645386
+43,40,Wangdo Kim,Dante Inga Narvaez,0.6578999757766724
+60,11,Elmer Ramirez Quiroz,Juan Bueno Villanueva,0.6574000120162964
+75,9,Igor Siveroni Salinas,Jesús Edwin Bellido Angulo,0.6552000045776367
+21,38,Jose Gerardo Deustua Rossel,Rocío Hoyos Diaz,0.6531000137329102
+54,26,Moises Nuñez Ochoa,Luis Ernesto Flores Luyo,0.6513000130653381
+50,45,Rensso Victor Hugo Mora Colque,Cristian Lopez Del Alamo,0.6504999995231628
+68,43,Ursula Rodriguez Zuñiga,Wangdo Kim,0.6488999724388123
+50,81,Rensso Victor Hugo Mora Colque,Jorge Tipe Villanueva,0.6471999883651733
+17,26,Fabien Cornillier,Luis Ernesto Flores Luyo,0.6467999815940857
+67,66,Juan Carlos Rodríguez Reyes,Alejandro Rios Cuadros,0.6466000080108643
+59,32,Sergio Quispe Rodriguez,Leo Guerrero,0.6466000080108643
+39,74,Deyby Huamanchahua Canchanya,Yamilet Rosario Serrano Llerena,0.6456999778747559
+7,24,Luis Bedriñana Mera,Jose Fiestas Iquira,0.6446999907493591
+35,11,Yuri Herrera Burstein,Juan Bueno Villanueva,0.641700029373169
+52,9,Angel Napa Bernuy,Jesús Edwin Bellido Angulo,0.640999972820282
+39,63,Deyby Huamanchahua Canchanya,Alejandra Ratti Parandelli,0.6406999826431274
+79,8,Francisco Tarazona Vásquez,Omar Bejarano Grández,0.640500009059906
+52,74,Angel Napa Bernuy,Yamilet Rosario Serrano Llerena,0.640500009059906
+59,56,Sergio Quispe Rodriguez,Hermes Pantoja Carhuavilca,0.6402000188827515
+27,45,Christian Flores Vega,Cristian Lopez Del Alamo,0.6395999789237976
+83,63,Julio Ernesto Valdivia Silva,Alejandra Ratti Parandelli,0.6366999745368958
+0,46,José Manuel Aguilar Alfaro,Milagros Lunga Calderón,0.6351000070571899
+75,33,Igor Siveroni Salinas,Juan Gabriel Gutierrez Alva,0.6335999965667725
+87,4,Eunice Villicaña Ortiz,Sergio Aranda Egusquiza,0.6330000162124634
+87,29,Eunice Villicaña Ortiz,Oscar Gamonal Pajares,0.6326000094413757
+86,4,Rafael Vera Pomalaza,Sergio Aranda Egusquiza,0.6297000050544739
+18,89,Antuané De La Flor Basterrechea,Romina Perla Yalonetzky Mankevich,0.6288999915122986
+79,63,Francisco Tarazona Vásquez,Alejandra Ratti Parandelli,0.6284000277519226
+0,34,José Manuel Aguilar Alfaro,Julio Gutierrez Alva,0.6270999908447266
+73,59,José Santiváñez Guarniz,Sergio Quispe Rodriguez,0.6269999742507935
+25,23,Elena Flores Barreda,Alberto Donayre Torres,0.6266999840736389
+30,70,Germain García Zanabria,Heider Sánchez Enriquez,0.6244000196456909
+25,72,Elena Flores Barreda,Monica C. Santa-Maria,0.6241000294685364
+42,19,Enrique Juarez Aquino,Jose De La Puente Maldonado,0.6233000159263611
+30,41,Germain García Zanabria,Elvis Jara Alegria,0.6233000159263611
+53,60,Julien Noel,Elmer Ramirez Quiroz,0.6227999925613403
+51,59,Monica Cristina Moreno Brush,Sergio Quispe Rodriguez,0.6219000220298767
+2,17,Helard Alvarez Sanchez,Fabien Cornillier,0.6215999722480774
+83,69,Julio Ernesto Valdivia Silva,Harry Gustavo Saavedra Espinoza,0.6198999881744385
+16,52,Xyoby Chavez Pacheco,Angel Napa Bernuy,0.619700014591217
+86,11,Rafael Vera Pomalaza,Juan Bueno Villanueva,0.6172000169754028
+16,65,Xyoby Chavez Pacheco,Jose Renom Andara,0.6172000169754028
+50,76,Rensso Victor Hugo Mora Colque,Aurea Rossy Soriano Vargas,0.6159999966621399
+50,31,Rensso Victor Hugo Mora Colque,Jorge Gonzalez Reaño,0.6146000027656555
+79,23,Francisco Tarazona Vásquez,Alberto Donayre Torres,0.6144999861717224
+83,13,Julio Ernesto Valdivia Silva,Ruth Canahuire Cabello,0.613099992275238
+53,12,Julien Noel,Jhedmar Jhonatan Callupe Luna,0.6122000217437744
+46,35,Milagros Lunga Calderón,Yuri Herrera Burstein,0.6119999885559082
+90,66,Katia Zegarra Sierra,Alejandro Rios Cuadros,0.6069999933242798
+69,39,Harry Gustavo Saavedra Espinoza,Deyby Huamanchahua Canchanya,0.605400025844574
+69,40,Harry Gustavo Saavedra Espinoza,Dante Inga Narvaez,0.6053000092506409
+83,6,Julio Ernesto Valdivia Silva,Andrés Julián Arias Moreno,0.603600025177002
+0,35,José Manuel Aguilar Alfaro,Yuri Herrera Burstein,0.603600025177002
+42,11,Enrique Juarez Aquino,Juan Bueno Villanueva,0.6032000184059143
+0,26,José Manuel Aguilar Alfaro,Luis Ernesto Flores Luyo,0.6029999852180481
+64,37,Pedro Rau Lavado,Daniel Vicente Horna Muñoz,0.6025000214576721
+57,6,Carolina Parada Quinaya,Andrés Julián Arias Moreno,0.6015999913215637
+56,73,Hermes Pantoja Carhuavilca,José Santiváñez Guarniz,0.6000000238418579
+3,17,Claudia Antonini Bova,Fabien Cornillier,0.5996000170707703
+30,74,Germain García Zanabria,Yamilet Rosario Serrano Llerena,0.5982999801635742
+35,4,Yuri Herrera Burstein,Sergio Aranda Egusquiza,0.5979999899864197
+25,15,Elena Flores Barreda,Samuel Charca Mamani,0.5972999930381775
+2,60,Helard Alvarez Sanchez,Elmer Ramirez Quiroz,0.5968000292778015
+34,32,Julio Gutierrez Alva,Leo Guerrero,0.5947999954223633
+3,34,Claudia Antonini Bova,Julio Gutierrez Alva,0.5927000045776367
+16,33,Xyoby Chavez Pacheco,Juan Gabriel Gutierrez Alva,0.5914000272750854
+53,2,Julien Noel,Helard Alvarez Sanchez,0.5889999866485596
+80,4,Jimmy Tarrillo Olano,Sergio Aranda Egusquiza,0.5889000296592712
+71,86,Nedher Sanchez Ramirez,Rafael Vera Pomalaza,0.5878000259399414
+56,32,Hermes Pantoja Carhuavilca,Leo Guerrero,0.5878000259399414
+80,74,Jimmy Tarrillo Olano,Yamilet Rosario Serrano Llerena,0.5871999859809875
+15,2,Samuel Charca Mamani,Helard Alvarez Sanchez,0.5846999883651733
+15,10,Samuel Charca Mamani,Carlos Alberto Benedetty Torres,0.5837000012397766
+5,87,Patricia Araujo Pantoja,Eunice Villicaña Ortiz,0.5819000005722046
+80,31,Jimmy Tarrillo Olano,Jorge Gonzalez Reaño,0.5817000269889832
+62,47,José Ramos Saravia,José Luis Mantari Laureano,0.580299973487854
+15,7,Samuel Charca Mamani,Luis Bedriñana Mera,0.5799999833106995
+16,50,Xyoby Chavez Pacheco,Rensso Victor Hugo Mora Colque,0.5791000127792358
+67,6,Juan Carlos Rodríguez Reyes,Andrés Julián Arias Moreno,0.5763000249862671
+5,53,Patricia Araujo Pantoja,Julien Noel,0.5760999917984009
+3,74,Claudia Antonini Bova,Yamilet Rosario Serrano Llerena,0.5759999752044678
+0,74,José Manuel Aguilar Alfaro,Yamilet Rosario Serrano Llerena,0.5758000016212463
+65,3,Jose Renom Andara,Claudia Antonini Bova,0.5740000009536743
+79,47,Francisco Tarazona Vásquez,José Luis Mantari Laureano,0.5740000009536743
+21,35,Jose Gerardo Deustua Rossel,Yuri Herrera Burstein,0.571399986743927
+72,13,Monica C. Santa-Maria,Ruth Canahuire Cabello,0.570900022983551
+48,89,Giancarlo Marcone Flores,Romina Perla Yalonetzky Mankevich,0.5708000063896179
+75,45,Igor Siveroni Salinas,Cristian Lopez Del Alamo,0.5694000124931335
+5,86,Patricia Araujo Pantoja,Rafael Vera Pomalaza,0.5694000124931335
+77,0,Enrique Stiglich Labarthe,José Manuel Aguilar Alfaro,0.5677000284194946
+57,23,Carolina Parada Quinaya,Alberto Donayre Torres,0.566100001335144
+89,91,Romina Perla Yalonetzky Mankevich,Carlos Zorrilla Aranguren,0.5654000043869019
+51,21,Monica Cristina Moreno Brush,Jose Gerardo Deustua Rossel,0.5648000240325928
+80,9,Jimmy Tarrillo Olano,Jesús Edwin Bellido Angulo,0.5629000067710876
+20,91,José Andrés De Leo Martínez,Carlos Zorrilla Aranguren,0.5615000128746033
+36,48,Oscar Hidalgo Wuest,Giancarlo Marcone Flores,0.5602999925613403
+71,87,Nedher Sanchez Ramirez,Eunice Villicaña Ortiz,0.5594000220298767
+51,38,Monica Cristina Moreno Brush,Rocío Hoyos Diaz,0.5580999851226807
+44,34,Jose Larco Martinelli,Julio Gutierrez Alva,0.5562000274658203
+67,60,Juan Carlos Rodríguez Reyes,Elmer Ramirez Quiroz,0.5543000102043152
+72,64,Monica C. Santa-Maria,Pedro Rau Lavado,0.5533999800682068
+15,47,Samuel Charca Mamani,José Luis Mantari Laureano,0.5529000163078308
+44,0,Jose Larco Martinelli,José Manuel Aguilar Alfaro,0.5519000291824341
+88,82,Akira Armando Wong Sato,David Wilfredo Torres Escobar,0.551800012588501
+51,11,Monica Cristina Moreno Brush,Juan Bueno Villanueva,0.551800012588501
+72,23,Monica C. Santa-Maria,Alberto Donayre Torres,0.5516999959945679
+72,6,Monica C. Santa-Maria,Andrés Julián Arias Moreno,0.5501000285148621
+57,68,Carolina Parada Quinaya,Ursula Rodriguez Zuñiga,0.5493000149726868
+42,55,Enrique Juarez Aquino,Maria Belén Ortiz García,0.5479999780654907
+46,51,Milagros Lunga Calderón,Monica Cristina Moreno Brush,0.5473999977111816
+44,26,Jose Larco Martinelli,Luis Ernesto Flores Luyo,0.5457000136375427
+66,40,Alejandro Rios Cuadros,Dante Inga Narvaez,0.5432000160217285
+66,6,Alejandro Rios Cuadros,Andrés Julián Arias Moreno,0.542900025844574
+67,2,Juan Carlos Rodríguez Reyes,Helard Alvarez Sanchez,0.5422999858856201
+84,42,Elba Rosaura Vazques Arrieta,Enrique Juarez Aquino,0.5404000282287598
+62,79,José Ramos Saravia,Francisco Tarazona Vásquez,0.5404000282287598
+46,77,Milagros Lunga Calderón,Enrique Stiglich Labarthe,0.5400000214576721
+42,26,Enrique Juarez Aquino,Luis Ernesto Flores Luyo,0.5400000214576721
+20,67,José Andrés De Leo Martínez,Juan Carlos Rodríguez Reyes,0.5396999716758728
+65,81,Jose Renom Andara,Jorge Tipe Villanueva,0.5389000177383423
+62,53,José Ramos Saravia,Julien Noel,0.5375000238418579
+65,52,Jose Renom Andara,Angel Napa Bernuy,0.5360000133514404
+71,60,Nedher Sanchez Ramirez,Elmer Ramirez Quiroz,0.5346999764442444
+57,13,Carolina Parada Quinaya,Ruth Canahuire Cabello,0.5311999917030334
+91,11,Carlos Zorrilla Aranguren,Juan Bueno Villanueva,0.5296000242233276
+37,8,Daniel Vicente Horna Muñoz,Omar Bejarano Grández,0.5289999842643738
+84,24,Elba Rosaura Vazques Arrieta,Jose Fiestas Iquira,0.527400016784668
+44,17,Jose Larco Martinelli,Fabien Cornillier,0.5267999768257141
+46,19,Milagros Lunga Calderón,Jose De La Puente Maldonado,0.5246999859809875
+71,40,Nedher Sanchez Ramirez,Dante Inga Narvaez,0.5238000154495239
+7,42,Luis Bedriñana Mera,Enrique Juarez Aquino,0.5217000246047974
+37,9,Daniel Vicente Horna Muñoz,Jesús Edwin Bellido Angulo,0.5206000208854675
+1,36,Grace Alexandrino Ocaña,Oscar Hidalgo Wuest,0.5198000073432922
+5,72,Patricia Araujo Pantoja,Monica C. Santa-Maria,0.5178999900817871
+36,18,Oscar Hidalgo Wuest,Antuané De La Flor Basterrechea,0.5152999758720398
+65,33,Jose Renom Andara,Juan Gabriel Gutierrez Alva,0.5145000219345093
+1,91,Grace Alexandrino Ocaña,Carlos Zorrilla Aranguren,0.5102999806404114
+5,39,Patricia Araujo Pantoja,Deyby Huamanchahua Canchanya,0.5101000070571899
+66,57,Alejandro Rios Cuadros,Carolina Parada Quinaya,0.5081999897956848
+37,72,Daniel Vicente Horna Muñoz,Monica C. Santa-Maria,0.5076000094413757
+49,28,Diego Alejandro Milanés Carreño,José Tomás Gálvez Ghersi,0.5062000155448914
+71,38,Nedher Sanchez Ramirez,Rocío Hoyos Diaz,0.5041000247001648
+78,48,Matteo Stiglich Labarthe,Giancarlo Marcone Flores,0.5037000179290771
+49,66,Diego Alejandro Milanés Carreño,Alejandro Rios Cuadros,0.5011000037193298
+82,72,David Wilfredo Torres Escobar,Monica C. Santa-Maria,0.5009999871253967
+37,33,Daniel Vicente Horna Muñoz,Juan Gabriel Gutierrez Alva,0.4952999949455261
+78,42,Matteo Stiglich Labarthe,Enrique Juarez Aquino,0.49239999055862427
+82,32,David Wilfredo Torres Escobar,Leo Guerrero,0.49230000376701355
+82,46,David Wilfredo Torres Escobar,Milagros Lunga Calderón,0.48350000381469727
+82,0,David Wilfredo Torres Escobar,José Manuel Aguilar Alfaro,0.48330000042915344
+84,29,Elba Rosaura Vazques Arrieta,Oscar Gamonal Pajares,0.4805999994277954
+89,1,Romina Perla Yalonetzky Mankevich,Grace Alexandrino Ocaña,0.4779999852180481
+14,69,Paul Cardenas Lizana,Harry Gustavo Saavedra Espinoza,0.475600004196167
+36,20,Oscar Hidalgo Wuest,José Andrés De Leo Martínez,0.4742000102996826
+36,38,Oscar Hidalgo Wuest,Rocío Hoyos Diaz,0.46540001034736633
+10,31,Carlos Alberto Benedetty Torres,Jorge Gonzalez Reaño,0.4514999985694885
