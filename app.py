@@ -8,6 +8,10 @@ app = Flask(__name__)
 FACULTY_NODES_PATH = "data/faculty_network_filtered.json"
 FACULTY_EDGES_PATH = "data/faculty_edges.csv"
 
+FACULTY_EDGES_2_PATH = "data/faculty_edges_by_dept_and_groups.csv"
+
+FACULTY_EDGES_3_PATH = "data/areas_w2v_edges.csv"
+
 @app.route('/')
 def hello_world():
     return render_template('index.html')
@@ -36,6 +40,30 @@ def get_faculty_edges():
         return jsonify({"error": "Archivo faculty_edges.csv no encontrado"}), 404
     except Exception as e:
         return jsonify({"error": f"Error leyendo archivo CSV: {str(e)}"}), 500
+
+@app.route('/api/faculty_edges_2')
+def get_faculty_edges_2():
+    """Endpoint para obtener datos de enlaces entre profesores (CSV)"""
+    try:
+        df = pd.read_csv(FACULTY_EDGES_2_PATH)
+        return jsonify(df.to_dict(orient='records'))
+    except FileNotFoundError:
+        return jsonify({"error": "Archivo faculty_edges_by_dept_and_groups.csv no encontrado"}), 404
+    except Exception as e:
+        return jsonify({"error": f"Error leyendo archivo CSV: {str(e)}"}), 500
+
+@app.route('/api/faculty_edges_3')
+def get_faculty_edges_3():
+    """Endpoint para obtener datos de enlaces entre profesores (CSV)"""
+    try:
+        df = pd.read_csv(FACULTY_EDGES_3_PATH)
+        return jsonify(df.to_dict(orient='records'))
+    except FileNotFoundError:
+        return jsonify({"error": "Archivo areas_w2v_edges.csv no encontrado"}), 404
+    except Exception as e:
+        return jsonify({"error": f"Error leyendo archivo CSV: {str(e)}"}), 500
+
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5001)

@@ -1,0 +1,93 @@
+id,name,department,dept_canon,research_groups,email
+0,José Manuel Aguilar Alfaro,Departamento de Negocios Digitales,negocios digitales,Grupo de Investigación en Analítica de Datos y Ciencias de Decisión (DADS),jaguilar@utec.edu.pe
+1,Grace Alexandrino Ocaña,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",,
+2,Helard Alvarez Sanchez,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas; Grupo de Investigación en Diseño de Productos con Simulación Computacional (MSP),halvarez@utec.edu.pe
+3,Claudia Antonini Bova,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,Grupo de Investigación en Analítica de Datos y Ciencias de Decisión (DADS),cantonini@utec.edu.pe
+4,Sergio Aranda Egusquiza,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,,saranda@utec.edu.pe
+5,Patricia Araujo Pantoja,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas,paraujo@utec.edu.pe
+6,Andrés Julián Arias Moreno,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Centro de Investigación en Bioingeniería - BIO,aariasm@utec.edu.pe
+7,Luis Bedriñana Mera,Departamento de Ingeniería Civil y Ambiental,ingenieria civil y ambiental,Grupo de Investigación en Infraestructura de Concreto Resiliente y Sostenible (ReSusCon); Centro de Investigación del Cemento y Concreto - CIC; Centro de Investigación y Conservación del Patrimonio,lbedrinana@utec.edu.pe
+8,Omar Bejarano Grández,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas; Grupo de Investigación en Diseño de Productos con Simulación Computacional (MSP),obejarano@utec.edu.pe
+9,Jesús Edwin Bellido Angulo,Departamento de Ciencia de la Computación,ciencia de la computacion,Grupo de Investigación en Inteligencia Artificial (GINIA); Centro de Investigación en Sostenibilidad Computacional - CompSust,jbellido@utec.edu.pe
+10,Carlos Alberto Benedetty Torres,Departamento de Ingeniería Civil y Ambiental,ingenieria civil y ambiental,Grupo de Investigación en Infraestructura de Concreto Resiliente y Sostenible (ReSusCon),cbenedetty@utec.edu.pe
+11,Juan Bueno Villanueva,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,,jbueno@utec.edu.pe
+12,Jhedmar Jhonatan Callupe Luna,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Robótica, Inteligencia Artificial y Control Avanzado (RIC)",jcallupe@utec.edu.pe
+13,Ruth Canahuire Cabello,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Robótica, Inteligencia Artificial y Control Avanzado (RIC); Centro de Investigación en Bioingeniería - BIO",rcanahuire@utec.edu.pe
+14,Paul Cardenas Lizana,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Centro de Investigación en Bioingeniería - BIO,pcardenas@utec.edu.pe
+15,Samuel Charca Mamani,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Centro de Investigación y Conservación del Patrimonio,scharca@utec.edu.pe
+16,Xyoby Chavez Pacheco,Departamento de Ciencias,ciencias,,xchavez@utec.edu.pe
+17,Fabien Cornillier,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,Grupo de Investigación en Analítica de Datos y Ciencias de Decisión (DADS); Centro de Investigación en Sostenibilidad Computacional - CompSust,fypcornillier@utec.edu.pe
+18,Antuané De La Flor Basterrechea,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",Centro de Impacto y Responsabilidad Social - CIRSO,adelaflor@utec.edu.pe
+19,Jose De La Puente Maldonado,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,,jdelapuente@utec.edu.pe
+20,José Andrés De Leo Martínez,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",Centro de Investigación y Conservación del Patrimonio,adeleo@utec.edu.pe
+21,Jose Gerardo Deustua Rossel,Unknown Department,,,jdeustua@utec.edu.pe
+22,Manuel Arturo Deza Figueroa,Departamento de Ciencia de la Computación,ciencia de la computacion,Grupo de Investigación en Inteligencia Artificial (GINIA),mdeza@utec.edu.pe
+23,Alberto Donayre Torres,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Centro de Investigación en Bioingeniería - BIO,adonayre@utec.edu.pe
+24,Jose Fiestas Iquira,Departamento de Ciencia de la Computación,ciencia de la computacion,Grupo de Investigación en Infraestructura de Concreto Resiliente y Sostenible (ReSusCon); Centro de Investigación en Sostenibilidad Computacional - CompSust,jfiestas@utec.edu.pe
+25,Elena Flores Barreda,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Centro de Investigación en Bioingeniería - BIO,cfloresb@utec.edu.pe
+26,Luis Ernesto Flores Luyo,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,Grupo de Investigación en Analítica de Datos y Ciencias de Decisión (DADS),lfloresl@utec.edu.pe
+27,Christian Flores Vega,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Robótica, Inteligencia Artificial y Control Avanzado (RIC)",cflores@utec.edu.pe
+28,José Tomás Gálvez Ghersi,Departamento de Ciencias,ciencias,Grupo de Investigación en Física Fundamental (GIFF); Centro de Investigación en Sostenibilidad Computacional - CompSust,jgalvezg@utec.edu.pe
+29,Oscar Gamonal Pajares,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,,ogamonal@utec.edu.pe
+30,Germain García Zanabria,Departamento de Ciencia de Datos y Sistemas de Información,ciencia de datos,Grupo de Investigación en Inteligencia Artificial (GINIA),
+31,Jorge Gonzalez Reaño,Departamento de Ciencia de la Computación,ciencia de la computacion,Centro de Investigación en Sostenibilidad Computacional - CompSust,jgonzalez@utec.edu.pe
+32,Leo Guerrero,Unknown Department,,Centro de Investigación y Tecnología del Agua - CITA,
+33,Juan Gabriel Gutierrez Alva,Departamento de Ciencia de la Computación,ciencia de la computacion,"Grupo de Investigación en Algoritmos, Combinatoria y Teoría de la Computación (ALGCOMB); Centro de Investigación en Sostenibilidad Computacional - CompSust",jgutierreza@utec.edu.pe
+34,Julio Gutierrez Alva,Departamento de Ciencia de Datos y Sistemas de Información,ciencia de datos,Grupo de Investigación en Analítica de Datos y Ciencias de Decisión (DADS),jgutierreza@utec.edu.pe
+35,Yuri Herrera Burstein,Departamento de Negocios Digitales,negocios digitales,,yherrera@utec.edu.pe
+36,Oscar Hidalgo Wuest,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",Centro de Impacto y Responsabilidad Social - CIRSO,ohidalgo@utec.edu.pe
+37,Daniel Vicente Horna Muñoz,Departamento de Ingeniería Civil y Ambiental,ingenieria civil y ambiental,Grupo de Investigación en Seguridad Hídrica y Cambio Climático (SeHClim); Centro de Investigación y Tecnología del Agua - CITA,
+38,Rocío Hoyos Diaz,Departamento de Ciencias,ciencias,,rhoyos@utec.edu.pe
+39,Deyby Huamanchahua Canchanya,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Innovación Educativa y Competencia Docente (INECOD); Grupo de Investigación en Robótica, Inteligencia Artificial y Control Avanzado (RIC); Centro de Investigación en Bioingeniería - BIO",dhuamanchahua@utec.edu.pe
+40,Dante Inga Narvaez,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Robótica, Inteligencia Artificial y Control Avanzado (RIC); Centro de Investigación en Bioingeniería - BIO",dinga@utec.edu.pe
+41,Elvis Jara Alegria,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Robótica, Inteligencia Artificial y Control Avanzado (RIC)",ejara@utec.edu.pe
+42,Enrique Juarez Aquino,Departamento de Ingeniería Civil y Ambiental,ingenieria civil y ambiental,,ejuarez@utec.edu.pe
+43,Wangdo Kim,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Centro de Investigación en Bioingeniería - BIO,mwdkim@utec.edu.pe
+44,Jose Larco Martinelli,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,Grupo de Investigación en Analítica de Datos y Ciencias de Decisión (DADS),jlarco@utec.edu.pe
+45,Cristian Lopez Del Alamo,Departamento de Ciencia de la Computación,ciencia de la computacion,Grupo de Investigación en Inteligencia Artificial (GINIA); Centro de Investigación en Sostenibilidad Computacional - CompSust,clopezd@utec.edu.pe
+46,Milagros Lunga Calderón,Departamento de Negocios Digitales,negocios digitales,,mlunga@utec.edu.pe
+47,José Luis Mantari Laureano,Departamento de Ciencias,ciencias,Grupo de Investigación en Diseño de Productos con Simulación Computacional (MSP),jmantari@utec.edu.pe
+48,Giancarlo Marcone Flores,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",Centro de Impacto y Responsabilidad Social - CIRSO,gmarcone@utec.edu.pe
+49,Diego Alejandro Milanés Carreño,Departamento de Ciencias,ciencias,Grupo de Investigación en Física Fundamental (GIFF),dmilanes@utec.edu.pe
+50,Rensso Victor Hugo Mora Colque,Departamento de Ciencia de la Computación,ciencia de la computacion,,rmora@utec.edu.pe
+51,Monica Cristina Moreno Brush,Unknown Department,,Centro de Investigación y Tecnología del Agua - CITA,
+52,Angel Napa Bernuy,Departamento de Ciencia de la Computación,ciencia de la computacion,"Grupo de Investigación en Algoritmos, Combinatoria y Teoría de la Computación (ALGCOMB)",anapa@utec.edu.pe
+53,Julien Noel,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas,jnoel@utec.edu.pe
+54,Moises Nuñez Ochoa,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Sistemas Embebidos, Reconfigurables, Monitoreo Inteligente, y Comunicaciones (SERMIC)",mnunez@utec.edu.pe
+55,Maria Belén Ortiz García,Departamento de Ingeniería Industrial y Gestión de la Ingeniería,ingenieria industrial y gestion de la ingenieria,,mortizg@utec.edu.pe
+56,Hermes Pantoja Carhuavilca,Departamento de Ciencias,ciencias,,hpantoja@utec.edu.pe
+57,Carolina Parada Quinaya,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,,dparada@utec.edu.pe
+58,Alexander Peña Nevado,Departamento de Ciencias,ciencias,,apena@utec.edu.pe
+59,Sergio Quispe Rodriguez,Departamento de Ciencias,ciencias,,squispe@utec.edu.pe
+60,Elmer Ramirez Quiroz,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas,eramirez@utec.edu.pe
+61,Oscar Ramos Ponce,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Robótica, Inteligencia Artificial y Control Avanzado (RIC)",oramos@utec.edu.pe
+62,José Ramos Saravia,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas; Grupo de Investigación en Diseño de Productos con Simulación Computacional (MSP),jramos@utec.edu.pe
+63,Alejandra Ratti Parandelli,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Centro de Investigación en Bioingeniería - BIO,aratti@utec.edu.pe
+64,Pedro Rau Lavado,Departamento de Ingeniería Civil y Ambiental,ingenieria civil y ambiental,Grupo de Investigación en Seguridad Hídrica y Cambio Climático (SeHClim); Centro de Investigación y Tecnología del Agua - CITA,prau@utec.edu.pe
+65,Jose Renom Andara,Departamento de Ciencias,ciencias,,jrenom@utec.edu.pe
+66,Alejandro Rios Cuadros,Departamento de Ciencias,ciencias,,arios@utec.edu.pe
+67,Juan Carlos Rodríguez Reyes,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Grupo de investigación en energía y minas; Centro de Investigación y Conservación del Patrimonio,jcrodriguez@utec.edu.pe
+68,Ursula Rodriguez Zuñiga,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,,urodriguez@utec.edu.pe
+69,Harry Gustavo Saavedra Espinoza,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Centro de Investigación en Bioingeniería - BIO,hsaavedra@utec.edu.pe
+70,Heider Sánchez Enriquez,Departamento de Ciencia de la Computación,ciencia de la computacion,,hsanchez@utec.edu.pe
+71,Nedher Sanchez Ramirez,Departamento de Ciencias,ciencias,,nsanchezr@utec.edu.pe
+72,Monica C. Santa-Maria,Departamento de Ingeniería Civil y Ambiental,ingenieria civil y ambiental,Centro de Investigación y Tecnología del Agua - CITA,msantamaria@utec.edu.pe
+73,José Santiváñez Guarniz,Unknown Department,,,jsantivanez@utec.edu.pe
+74,Yamilet Rosario Serrano Llerena,Departamento de Ciencia de Datos y Sistemas de Información,ciencia de datos,Grupo de Investigación en Inteligencia Artificial (GINIA); Grupo de Investigación en Analítica de Datos y Ciencias de Decisión (DADS); Centro de Investigación en Sostenibilidad Computacional - CompSust,yserrano@utec.edu.pe
+75,Igor Siveroni Salinas,Departamento de Ciencia de la Computación,ciencia de la computacion,Centro de Investigación en Sostenibilidad Computacional - CompSust,isiveroni@utec.edu.pe
+76,Aurea Rossy Soriano Vargas,Departamento de Ciencia de la Computación,ciencia de la computacion,,asoriano@utec.edu.pe
+77,Enrique Stiglich Labarthe,Facultad de Negocios,negocios,,estiglich@utec.edu.pe
+78,Matteo Stiglich Labarthe,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",Centro de Impacto y Responsabilidad Social - CIRSO,mstiglich@utec.edu.pe
+79,Francisco Tarazona Vásquez,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,,ftarazona@utec.edu.pe
+80,Jimmy Tarrillo Olano,Departamento de Ingeniería Electrónica y Mecatrónica,ingenieria electronica y mecatronica,"Grupo de Investigación en Sistemas Embebidos, Reconfigurables, Monitoreo Inteligente, y Comunicaciones (SERMIC)",jtarrillo@utec.edu.pe
+81,Jorge Tipe Villanueva,Departamento de Ciencia de la Computación,ciencia de la computacion,"Grupo de Investigación en Algoritmos, Combinatoria y Teoría de la Computación (ALGCOMB)",jtipe@utec.edu..pe
+82,David Wilfredo Torres Escobar,Unknown Department,,,dtorres@utec.edu.pe
+83,Julio Ernesto Valdivia Silva,Departamento de Bioingeniería e Ingeniería Química,bioingenieria e ingenieria quimica,Centro de Investigación en Bioingeniería - BIO,jvaldivias@utec.edu.pe
+84,Elba Rosaura Vazques Arrieta,Departamento de Ingeniería Civil y Ambiental,ingenieria civil y ambiental,Centro de Investigación del Cemento y Concreto - CIC,rvasqueza@utec.edu.pe
+85,Emir Augusto Vela Saavedra,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Centro de Investigación en Bioingeniería - BIO,evela@utec.edu.pe
+86,Rafael Vera Pomalaza,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas,rvera@utec.edu.pe
+87,Eunice Villicaña Ortiz,Departamento de Ingeniería Mecánica y de la Energía,ingenieria mecanica y de la energia,Grupo de investigación en energía y minas,evillicana@utec.edu.pe
+88,Akira Armando Wong Sato,Unknown Department,,,awong@utec.edu.pe
+89,Romina Perla Yalonetzky Mankevich,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",Centro de Impacto y Responsabilidad Social - CIRSO,ryalonetzky@utec.edu.pe
+90,Katia Zegarra Sierra,Departamento de Ciencias,ciencias,,kzegarras@utec.edu.pe
+91,Carlos Zorrilla Aranguren,"Departamento de Humanidades, Artes y Ciencias Sociales","humanidades, artes y ciencias sociales",,czorrilla@utec.edu.pe

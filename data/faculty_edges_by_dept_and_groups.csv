@@ -1,0 +1,592 @@
+source_id,target_id,source_name,target_name,relation,key,weight
+0,35,José Manuel Aguilar Alfaro,Yuri Herrera Burstein,department,negocios digitales,1
+0,46,José Manuel Aguilar Alfaro,Milagros Lunga Calderón,department,negocios digitales,1
+1,18,Grace Alexandrino Ocaña,Antuané De La Flor Basterrechea,department,"humanidades, artes y ciencias sociales",1
+1,20,Grace Alexandrino Ocaña,José Andrés De Leo Martínez,department,"humanidades, artes y ciencias sociales",1
+1,36,Grace Alexandrino Ocaña,Oscar Hidalgo Wuest,department,"humanidades, artes y ciencias sociales",1
+1,48,Grace Alexandrino Ocaña,Giancarlo Marcone Flores,department,"humanidades, artes y ciencias sociales",1
+1,78,Grace Alexandrino Ocaña,Matteo Stiglich Labarthe,department,"humanidades, artes y ciencias sociales",1
+1,89,Grace Alexandrino Ocaña,Romina Perla Yalonetzky Mankevich,department,"humanidades, artes y ciencias sociales",1
+1,91,Grace Alexandrino Ocaña,Carlos Zorrilla Aranguren,department,"humanidades, artes y ciencias sociales",1
+2,5,Helard Alvarez Sanchez,Patricia Araujo Pantoja,department,ingenieria mecanica y de la energia,1
+2,8,Helard Alvarez Sanchez,Omar Bejarano Grández,department,ingenieria mecanica y de la energia,1
+2,15,Helard Alvarez Sanchez,Samuel Charca Mamani,department,ingenieria mecanica y de la energia,1
+2,43,Helard Alvarez Sanchez,Wangdo Kim,department,ingenieria mecanica y de la energia,1
+2,53,Helard Alvarez Sanchez,Julien Noel,department,ingenieria mecanica y de la energia,1
+2,60,Helard Alvarez Sanchez,Elmer Ramirez Quiroz,department,ingenieria mecanica y de la energia,1
+2,62,Helard Alvarez Sanchez,José Ramos Saravia,department,ingenieria mecanica y de la energia,1
+2,85,Helard Alvarez Sanchez,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+2,86,Helard Alvarez Sanchez,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+2,87,Helard Alvarez Sanchez,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+3,11,Claudia Antonini Bova,Juan Bueno Villanueva,department,ingenieria industrial y gestion de la ingenieria,1
+3,17,Claudia Antonini Bova,Fabien Cornillier,department,ingenieria industrial y gestion de la ingenieria,1
+3,19,Claudia Antonini Bova,Jose De La Puente Maldonado,department,ingenieria industrial y gestion de la ingenieria,1
+3,26,Claudia Antonini Bova,Luis Ernesto Flores Luyo,department,ingenieria industrial y gestion de la ingenieria,1
+3,29,Claudia Antonini Bova,Oscar Gamonal Pajares,department,ingenieria industrial y gestion de la ingenieria,1
+3,44,Claudia Antonini Bova,Jose Larco Martinelli,department,ingenieria industrial y gestion de la ingenieria,1
+3,55,Claudia Antonini Bova,Maria Belén Ortiz García,department,ingenieria industrial y gestion de la ingenieria,1
+4,12,Sergio Aranda Egusquiza,Jhedmar Jhonatan Callupe Luna,department,ingenieria electronica y mecatronica,1
+4,13,Sergio Aranda Egusquiza,Ruth Canahuire Cabello,department,ingenieria electronica y mecatronica,1
+4,27,Sergio Aranda Egusquiza,Christian Flores Vega,department,ingenieria electronica y mecatronica,1
+4,39,Sergio Aranda Egusquiza,Deyby Huamanchahua Canchanya,department,ingenieria electronica y mecatronica,1
+4,40,Sergio Aranda Egusquiza,Dante Inga Narvaez,department,ingenieria electronica y mecatronica,1
+4,41,Sergio Aranda Egusquiza,Elvis Jara Alegria,department,ingenieria electronica y mecatronica,1
+4,54,Sergio Aranda Egusquiza,Moises Nuñez Ochoa,department,ingenieria electronica y mecatronica,1
+4,61,Sergio Aranda Egusquiza,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+4,80,Sergio Aranda Egusquiza,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+5,8,Patricia Araujo Pantoja,Omar Bejarano Grández,department,ingenieria mecanica y de la energia,1
+5,15,Patricia Araujo Pantoja,Samuel Charca Mamani,department,ingenieria mecanica y de la energia,1
+5,43,Patricia Araujo Pantoja,Wangdo Kim,department,ingenieria mecanica y de la energia,1
+5,53,Patricia Araujo Pantoja,Julien Noel,department,ingenieria mecanica y de la energia,1
+5,60,Patricia Araujo Pantoja,Elmer Ramirez Quiroz,department,ingenieria mecanica y de la energia,1
+5,62,Patricia Araujo Pantoja,José Ramos Saravia,department,ingenieria mecanica y de la energia,1
+5,85,Patricia Araujo Pantoja,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+5,86,Patricia Araujo Pantoja,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+5,87,Patricia Araujo Pantoja,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+6,14,Andrés Julián Arias Moreno,Paul Cardenas Lizana,department,bioingenieria e ingenieria quimica,1
+6,23,Andrés Julián Arias Moreno,Alberto Donayre Torres,department,bioingenieria e ingenieria quimica,1
+6,25,Andrés Julián Arias Moreno,Elena Flores Barreda,department,bioingenieria e ingenieria quimica,1
+6,57,Andrés Julián Arias Moreno,Carolina Parada Quinaya,department,bioingenieria e ingenieria quimica,1
+6,63,Andrés Julián Arias Moreno,Alejandra Ratti Parandelli,department,bioingenieria e ingenieria quimica,1
+6,67,Andrés Julián Arias Moreno,Juan Carlos Rodríguez Reyes,department,bioingenieria e ingenieria quimica,1
+6,68,Andrés Julián Arias Moreno,Ursula Rodriguez Zuñiga,department,bioingenieria e ingenieria quimica,1
+6,69,Andrés Julián Arias Moreno,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+6,79,Andrés Julián Arias Moreno,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+6,83,Andrés Julián Arias Moreno,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+7,10,Luis Bedriñana Mera,Carlos Alberto Benedetty Torres,department,ingenieria civil y ambiental,1
+7,37,Luis Bedriñana Mera,Daniel Vicente Horna Muñoz,department,ingenieria civil y ambiental,1
+7,42,Luis Bedriñana Mera,Enrique Juarez Aquino,department,ingenieria civil y ambiental,1
+7,64,Luis Bedriñana Mera,Pedro Rau Lavado,department,ingenieria civil y ambiental,1
+7,72,Luis Bedriñana Mera,Monica C. Santa-Maria,department,ingenieria civil y ambiental,1
+7,84,Luis Bedriñana Mera,Elba Rosaura Vazques Arrieta,department,ingenieria civil y ambiental,1
+8,15,Omar Bejarano Grández,Samuel Charca Mamani,department,ingenieria mecanica y de la energia,1
+8,43,Omar Bejarano Grández,Wangdo Kim,department,ingenieria mecanica y de la energia,1
+8,53,Omar Bejarano Grández,Julien Noel,department,ingenieria mecanica y de la energia,1
+8,60,Omar Bejarano Grández,Elmer Ramirez Quiroz,department,ingenieria mecanica y de la energia,1
+8,62,Omar Bejarano Grández,José Ramos Saravia,department,ingenieria mecanica y de la energia,1
+8,85,Omar Bejarano Grández,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+8,86,Omar Bejarano Grández,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+8,87,Omar Bejarano Grández,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+9,22,Jesús Edwin Bellido Angulo,Manuel Arturo Deza Figueroa,department,ciencia de la computacion,1
+9,24,Jesús Edwin Bellido Angulo,Jose Fiestas Iquira,department,ciencia de la computacion,1
+9,31,Jesús Edwin Bellido Angulo,Jorge Gonzalez Reaño,department,ciencia de la computacion,1
+9,33,Jesús Edwin Bellido Angulo,Juan Gabriel Gutierrez Alva,department,ciencia de la computacion,1
+9,45,Jesús Edwin Bellido Angulo,Cristian Lopez Del Alamo,department,ciencia de la computacion,1
+9,50,Jesús Edwin Bellido Angulo,Rensso Victor Hugo Mora Colque,department,ciencia de la computacion,1
+9,52,Jesús Edwin Bellido Angulo,Angel Napa Bernuy,department,ciencia de la computacion,1
+9,70,Jesús Edwin Bellido Angulo,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+9,75,Jesús Edwin Bellido Angulo,Igor Siveroni Salinas,department,ciencia de la computacion,1
+9,76,Jesús Edwin Bellido Angulo,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+9,81,Jesús Edwin Bellido Angulo,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+10,37,Carlos Alberto Benedetty Torres,Daniel Vicente Horna Muñoz,department,ingenieria civil y ambiental,1
+10,42,Carlos Alberto Benedetty Torres,Enrique Juarez Aquino,department,ingenieria civil y ambiental,1
+10,64,Carlos Alberto Benedetty Torres,Pedro Rau Lavado,department,ingenieria civil y ambiental,1
+10,72,Carlos Alberto Benedetty Torres,Monica C. Santa-Maria,department,ingenieria civil y ambiental,1
+10,84,Carlos Alberto Benedetty Torres,Elba Rosaura Vazques Arrieta,department,ingenieria civil y ambiental,1
+11,17,Juan Bueno Villanueva,Fabien Cornillier,department,ingenieria industrial y gestion de la ingenieria,1
+11,19,Juan Bueno Villanueva,Jose De La Puente Maldonado,department,ingenieria industrial y gestion de la ingenieria,1
+11,26,Juan Bueno Villanueva,Luis Ernesto Flores Luyo,department,ingenieria industrial y gestion de la ingenieria,1
+11,29,Juan Bueno Villanueva,Oscar Gamonal Pajares,department,ingenieria industrial y gestion de la ingenieria,1
+11,44,Juan Bueno Villanueva,Jose Larco Martinelli,department,ingenieria industrial y gestion de la ingenieria,1
+11,55,Juan Bueno Villanueva,Maria Belén Ortiz García,department,ingenieria industrial y gestion de la ingenieria,1
+12,13,Jhedmar Jhonatan Callupe Luna,Ruth Canahuire Cabello,department,ingenieria electronica y mecatronica,1
+12,27,Jhedmar Jhonatan Callupe Luna,Christian Flores Vega,department,ingenieria electronica y mecatronica,1
+12,39,Jhedmar Jhonatan Callupe Luna,Deyby Huamanchahua Canchanya,department,ingenieria electronica y mecatronica,1
+12,40,Jhedmar Jhonatan Callupe Luna,Dante Inga Narvaez,department,ingenieria electronica y mecatronica,1
+12,41,Jhedmar Jhonatan Callupe Luna,Elvis Jara Alegria,department,ingenieria electronica y mecatronica,1
+12,54,Jhedmar Jhonatan Callupe Luna,Moises Nuñez Ochoa,department,ingenieria electronica y mecatronica,1
+12,61,Jhedmar Jhonatan Callupe Luna,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+12,80,Jhedmar Jhonatan Callupe Luna,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+13,27,Ruth Canahuire Cabello,Christian Flores Vega,department,ingenieria electronica y mecatronica,1
+13,39,Ruth Canahuire Cabello,Deyby Huamanchahua Canchanya,department,ingenieria electronica y mecatronica,1
+13,40,Ruth Canahuire Cabello,Dante Inga Narvaez,department,ingenieria electronica y mecatronica,1
+13,41,Ruth Canahuire Cabello,Elvis Jara Alegria,department,ingenieria electronica y mecatronica,1
+13,54,Ruth Canahuire Cabello,Moises Nuñez Ochoa,department,ingenieria electronica y mecatronica,1
+13,61,Ruth Canahuire Cabello,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+13,80,Ruth Canahuire Cabello,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+14,23,Paul Cardenas Lizana,Alberto Donayre Torres,department,bioingenieria e ingenieria quimica,1
+14,25,Paul Cardenas Lizana,Elena Flores Barreda,department,bioingenieria e ingenieria quimica,1
+14,57,Paul Cardenas Lizana,Carolina Parada Quinaya,department,bioingenieria e ingenieria quimica,1
+14,63,Paul Cardenas Lizana,Alejandra Ratti Parandelli,department,bioingenieria e ingenieria quimica,1
+14,67,Paul Cardenas Lizana,Juan Carlos Rodríguez Reyes,department,bioingenieria e ingenieria quimica,1
+14,68,Paul Cardenas Lizana,Ursula Rodriguez Zuñiga,department,bioingenieria e ingenieria quimica,1
+14,69,Paul Cardenas Lizana,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+14,79,Paul Cardenas Lizana,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+14,83,Paul Cardenas Lizana,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+15,43,Samuel Charca Mamani,Wangdo Kim,department,ingenieria mecanica y de la energia,1
+15,53,Samuel Charca Mamani,Julien Noel,department,ingenieria mecanica y de la energia,1
+15,60,Samuel Charca Mamani,Elmer Ramirez Quiroz,department,ingenieria mecanica y de la energia,1
+15,62,Samuel Charca Mamani,José Ramos Saravia,department,ingenieria mecanica y de la energia,1
+15,85,Samuel Charca Mamani,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+15,86,Samuel Charca Mamani,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+15,87,Samuel Charca Mamani,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+16,28,Xyoby Chavez Pacheco,José Tomás Gálvez Ghersi,department,ciencias,1
+16,38,Xyoby Chavez Pacheco,Rocío Hoyos Diaz,department,ciencias,1
+16,47,Xyoby Chavez Pacheco,José Luis Mantari Laureano,department,ciencias,1
+16,49,Xyoby Chavez Pacheco,Diego Alejandro Milanés Carreño,department,ciencias,1
+16,56,Xyoby Chavez Pacheco,Hermes Pantoja Carhuavilca,department,ciencias,1
+16,58,Xyoby Chavez Pacheco,Alexander Peña Nevado,department,ciencias,1
+16,59,Xyoby Chavez Pacheco,Sergio Quispe Rodriguez,department,ciencias,1
+16,65,Xyoby Chavez Pacheco,Jose Renom Andara,department,ciencias,1
+16,66,Xyoby Chavez Pacheco,Alejandro Rios Cuadros,department,ciencias,1
+16,71,Xyoby Chavez Pacheco,Nedher Sanchez Ramirez,department,ciencias,1
+16,90,Xyoby Chavez Pacheco,Katia Zegarra Sierra,department,ciencias,1
+17,19,Fabien Cornillier,Jose De La Puente Maldonado,department,ingenieria industrial y gestion de la ingenieria,1
+17,26,Fabien Cornillier,Luis Ernesto Flores Luyo,department,ingenieria industrial y gestion de la ingenieria,1
+17,29,Fabien Cornillier,Oscar Gamonal Pajares,department,ingenieria industrial y gestion de la ingenieria,1
+17,44,Fabien Cornillier,Jose Larco Martinelli,department,ingenieria industrial y gestion de la ingenieria,1
+17,55,Fabien Cornillier,Maria Belén Ortiz García,department,ingenieria industrial y gestion de la ingenieria,1
+18,20,Antuané De La Flor Basterrechea,José Andrés De Leo Martínez,department,"humanidades, artes y ciencias sociales",1
+18,36,Antuané De La Flor Basterrechea,Oscar Hidalgo Wuest,department,"humanidades, artes y ciencias sociales",1
+18,48,Antuané De La Flor Basterrechea,Giancarlo Marcone Flores,department,"humanidades, artes y ciencias sociales",1
+18,78,Antuané De La Flor Basterrechea,Matteo Stiglich Labarthe,department,"humanidades, artes y ciencias sociales",1
+18,89,Antuané De La Flor Basterrechea,Romina Perla Yalonetzky Mankevich,department,"humanidades, artes y ciencias sociales",1
+18,91,Antuané De La Flor Basterrechea,Carlos Zorrilla Aranguren,department,"humanidades, artes y ciencias sociales",1
+19,26,Jose De La Puente Maldonado,Luis Ernesto Flores Luyo,department,ingenieria industrial y gestion de la ingenieria,1
+19,29,Jose De La Puente Maldonado,Oscar Gamonal Pajares,department,ingenieria industrial y gestion de la ingenieria,1
+19,44,Jose De La Puente Maldonado,Jose Larco Martinelli,department,ingenieria industrial y gestion de la ingenieria,1
+19,55,Jose De La Puente Maldonado,Maria Belén Ortiz García,department,ingenieria industrial y gestion de la ingenieria,1
+20,36,José Andrés De Leo Martínez,Oscar Hidalgo Wuest,department,"humanidades, artes y ciencias sociales",1
+20,48,José Andrés De Leo Martínez,Giancarlo Marcone Flores,department,"humanidades, artes y ciencias sociales",1
+20,78,José Andrés De Leo Martínez,Matteo Stiglich Labarthe,department,"humanidades, artes y ciencias sociales",1
+20,89,José Andrés De Leo Martínez,Romina Perla Yalonetzky Mankevich,department,"humanidades, artes y ciencias sociales",1
+20,91,José Andrés De Leo Martínez,Carlos Zorrilla Aranguren,department,"humanidades, artes y ciencias sociales",1
+22,24,Manuel Arturo Deza Figueroa,Jose Fiestas Iquira,department,ciencia de la computacion,1
+22,31,Manuel Arturo Deza Figueroa,Jorge Gonzalez Reaño,department,ciencia de la computacion,1
+22,33,Manuel Arturo Deza Figueroa,Juan Gabriel Gutierrez Alva,department,ciencia de la computacion,1
+22,45,Manuel Arturo Deza Figueroa,Cristian Lopez Del Alamo,department,ciencia de la computacion,1
+22,50,Manuel Arturo Deza Figueroa,Rensso Victor Hugo Mora Colque,department,ciencia de la computacion,1
+22,52,Manuel Arturo Deza Figueroa,Angel Napa Bernuy,department,ciencia de la computacion,1
+22,70,Manuel Arturo Deza Figueroa,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+22,75,Manuel Arturo Deza Figueroa,Igor Siveroni Salinas,department,ciencia de la computacion,1
+22,76,Manuel Arturo Deza Figueroa,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+22,81,Manuel Arturo Deza Figueroa,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+23,25,Alberto Donayre Torres,Elena Flores Barreda,department,bioingenieria e ingenieria quimica,1
+23,57,Alberto Donayre Torres,Carolina Parada Quinaya,department,bioingenieria e ingenieria quimica,1
+23,63,Alberto Donayre Torres,Alejandra Ratti Parandelli,department,bioingenieria e ingenieria quimica,1
+23,67,Alberto Donayre Torres,Juan Carlos Rodríguez Reyes,department,bioingenieria e ingenieria quimica,1
+23,68,Alberto Donayre Torres,Ursula Rodriguez Zuñiga,department,bioingenieria e ingenieria quimica,1
+23,69,Alberto Donayre Torres,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+23,79,Alberto Donayre Torres,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+23,83,Alberto Donayre Torres,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+24,31,Jose Fiestas Iquira,Jorge Gonzalez Reaño,department,ciencia de la computacion,1
+24,33,Jose Fiestas Iquira,Juan Gabriel Gutierrez Alva,department,ciencia de la computacion,1
+24,45,Jose Fiestas Iquira,Cristian Lopez Del Alamo,department,ciencia de la computacion,1
+24,50,Jose Fiestas Iquira,Rensso Victor Hugo Mora Colque,department,ciencia de la computacion,1
+24,52,Jose Fiestas Iquira,Angel Napa Bernuy,department,ciencia de la computacion,1
+24,70,Jose Fiestas Iquira,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+24,75,Jose Fiestas Iquira,Igor Siveroni Salinas,department,ciencia de la computacion,1
+24,76,Jose Fiestas Iquira,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+24,81,Jose Fiestas Iquira,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+25,57,Elena Flores Barreda,Carolina Parada Quinaya,department,bioingenieria e ingenieria quimica,1
+25,63,Elena Flores Barreda,Alejandra Ratti Parandelli,department,bioingenieria e ingenieria quimica,1
+25,67,Elena Flores Barreda,Juan Carlos Rodríguez Reyes,department,bioingenieria e ingenieria quimica,1
+25,68,Elena Flores Barreda,Ursula Rodriguez Zuñiga,department,bioingenieria e ingenieria quimica,1
+25,69,Elena Flores Barreda,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+25,79,Elena Flores Barreda,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+25,83,Elena Flores Barreda,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+26,29,Luis Ernesto Flores Luyo,Oscar Gamonal Pajares,department,ingenieria industrial y gestion de la ingenieria,1
+26,44,Luis Ernesto Flores Luyo,Jose Larco Martinelli,department,ingenieria industrial y gestion de la ingenieria,1
+26,55,Luis Ernesto Flores Luyo,Maria Belén Ortiz García,department,ingenieria industrial y gestion de la ingenieria,1
+27,39,Christian Flores Vega,Deyby Huamanchahua Canchanya,department,ingenieria electronica y mecatronica,1
+27,40,Christian Flores Vega,Dante Inga Narvaez,department,ingenieria electronica y mecatronica,1
+27,41,Christian Flores Vega,Elvis Jara Alegria,department,ingenieria electronica y mecatronica,1
+27,54,Christian Flores Vega,Moises Nuñez Ochoa,department,ingenieria electronica y mecatronica,1
+27,61,Christian Flores Vega,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+27,80,Christian Flores Vega,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+28,38,José Tomás Gálvez Ghersi,Rocío Hoyos Diaz,department,ciencias,1
+28,47,José Tomás Gálvez Ghersi,José Luis Mantari Laureano,department,ciencias,1
+28,49,José Tomás Gálvez Ghersi,Diego Alejandro Milanés Carreño,department,ciencias,1
+28,56,José Tomás Gálvez Ghersi,Hermes Pantoja Carhuavilca,department,ciencias,1
+28,58,José Tomás Gálvez Ghersi,Alexander Peña Nevado,department,ciencias,1
+28,59,José Tomás Gálvez Ghersi,Sergio Quispe Rodriguez,department,ciencias,1
+28,65,José Tomás Gálvez Ghersi,Jose Renom Andara,department,ciencias,1
+28,66,José Tomás Gálvez Ghersi,Alejandro Rios Cuadros,department,ciencias,1
+28,71,José Tomás Gálvez Ghersi,Nedher Sanchez Ramirez,department,ciencias,1
+28,90,José Tomás Gálvez Ghersi,Katia Zegarra Sierra,department,ciencias,1
+29,44,Oscar Gamonal Pajares,Jose Larco Martinelli,department,ingenieria industrial y gestion de la ingenieria,1
+29,55,Oscar Gamonal Pajares,Maria Belén Ortiz García,department,ingenieria industrial y gestion de la ingenieria,1
+30,34,Germain García Zanabria,Julio Gutierrez Alva,department,ciencia de datos,1
+30,74,Germain García Zanabria,Yamilet Rosario Serrano Llerena,department,ciencia de datos,1
+31,33,Jorge Gonzalez Reaño,Juan Gabriel Gutierrez Alva,department,ciencia de la computacion,1
+31,45,Jorge Gonzalez Reaño,Cristian Lopez Del Alamo,department,ciencia de la computacion,1
+31,50,Jorge Gonzalez Reaño,Rensso Victor Hugo Mora Colque,department,ciencia de la computacion,1
+31,52,Jorge Gonzalez Reaño,Angel Napa Bernuy,department,ciencia de la computacion,1
+31,70,Jorge Gonzalez Reaño,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+31,75,Jorge Gonzalez Reaño,Igor Siveroni Salinas,department,ciencia de la computacion,1
+31,76,Jorge Gonzalez Reaño,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+31,81,Jorge Gonzalez Reaño,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+33,45,Juan Gabriel Gutierrez Alva,Cristian Lopez Del Alamo,department,ciencia de la computacion,1
+33,50,Juan Gabriel Gutierrez Alva,Rensso Victor Hugo Mora Colque,department,ciencia de la computacion,1
+33,52,Juan Gabriel Gutierrez Alva,Angel Napa Bernuy,department,ciencia de la computacion,1
+33,70,Juan Gabriel Gutierrez Alva,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+33,75,Juan Gabriel Gutierrez Alva,Igor Siveroni Salinas,department,ciencia de la computacion,1
+33,76,Juan Gabriel Gutierrez Alva,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+33,81,Juan Gabriel Gutierrez Alva,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+34,74,Julio Gutierrez Alva,Yamilet Rosario Serrano Llerena,department,ciencia de datos,1
+35,46,Yuri Herrera Burstein,Milagros Lunga Calderón,department,negocios digitales,1
+36,48,Oscar Hidalgo Wuest,Giancarlo Marcone Flores,department,"humanidades, artes y ciencias sociales",1
+36,78,Oscar Hidalgo Wuest,Matteo Stiglich Labarthe,department,"humanidades, artes y ciencias sociales",1
+36,89,Oscar Hidalgo Wuest,Romina Perla Yalonetzky Mankevich,department,"humanidades, artes y ciencias sociales",1
+36,91,Oscar Hidalgo Wuest,Carlos Zorrilla Aranguren,department,"humanidades, artes y ciencias sociales",1
+37,42,Daniel Vicente Horna Muñoz,Enrique Juarez Aquino,department,ingenieria civil y ambiental,1
+37,64,Daniel Vicente Horna Muñoz,Pedro Rau Lavado,department,ingenieria civil y ambiental,1
+37,72,Daniel Vicente Horna Muñoz,Monica C. Santa-Maria,department,ingenieria civil y ambiental,1
+37,84,Daniel Vicente Horna Muñoz,Elba Rosaura Vazques Arrieta,department,ingenieria civil y ambiental,1
+38,47,Rocío Hoyos Diaz,José Luis Mantari Laureano,department,ciencias,1
+38,49,Rocío Hoyos Diaz,Diego Alejandro Milanés Carreño,department,ciencias,1
+38,56,Rocío Hoyos Diaz,Hermes Pantoja Carhuavilca,department,ciencias,1
+38,58,Rocío Hoyos Diaz,Alexander Peña Nevado,department,ciencias,1
+38,59,Rocío Hoyos Diaz,Sergio Quispe Rodriguez,department,ciencias,1
+38,65,Rocío Hoyos Diaz,Jose Renom Andara,department,ciencias,1
+38,66,Rocío Hoyos Diaz,Alejandro Rios Cuadros,department,ciencias,1
+38,71,Rocío Hoyos Diaz,Nedher Sanchez Ramirez,department,ciencias,1
+38,90,Rocío Hoyos Diaz,Katia Zegarra Sierra,department,ciencias,1
+39,40,Deyby Huamanchahua Canchanya,Dante Inga Narvaez,department,ingenieria electronica y mecatronica,1
+39,41,Deyby Huamanchahua Canchanya,Elvis Jara Alegria,department,ingenieria electronica y mecatronica,1
+39,54,Deyby Huamanchahua Canchanya,Moises Nuñez Ochoa,department,ingenieria electronica y mecatronica,1
+39,61,Deyby Huamanchahua Canchanya,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+39,80,Deyby Huamanchahua Canchanya,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+40,41,Dante Inga Narvaez,Elvis Jara Alegria,department,ingenieria electronica y mecatronica,1
+40,54,Dante Inga Narvaez,Moises Nuñez Ochoa,department,ingenieria electronica y mecatronica,1
+40,61,Dante Inga Narvaez,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+40,80,Dante Inga Narvaez,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+41,54,Elvis Jara Alegria,Moises Nuñez Ochoa,department,ingenieria electronica y mecatronica,1
+41,61,Elvis Jara Alegria,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+41,80,Elvis Jara Alegria,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+42,64,Enrique Juarez Aquino,Pedro Rau Lavado,department,ingenieria civil y ambiental,1
+42,72,Enrique Juarez Aquino,Monica C. Santa-Maria,department,ingenieria civil y ambiental,1
+42,84,Enrique Juarez Aquino,Elba Rosaura Vazques Arrieta,department,ingenieria civil y ambiental,1
+43,53,Wangdo Kim,Julien Noel,department,ingenieria mecanica y de la energia,1
+43,60,Wangdo Kim,Elmer Ramirez Quiroz,department,ingenieria mecanica y de la energia,1
+43,62,Wangdo Kim,José Ramos Saravia,department,ingenieria mecanica y de la energia,1
+43,85,Wangdo Kim,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+43,86,Wangdo Kim,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+43,87,Wangdo Kim,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+44,55,Jose Larco Martinelli,Maria Belén Ortiz García,department,ingenieria industrial y gestion de la ingenieria,1
+45,50,Cristian Lopez Del Alamo,Rensso Victor Hugo Mora Colque,department,ciencia de la computacion,1
+45,52,Cristian Lopez Del Alamo,Angel Napa Bernuy,department,ciencia de la computacion,1
+45,70,Cristian Lopez Del Alamo,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+45,75,Cristian Lopez Del Alamo,Igor Siveroni Salinas,department,ciencia de la computacion,1
+45,76,Cristian Lopez Del Alamo,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+45,81,Cristian Lopez Del Alamo,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+47,49,José Luis Mantari Laureano,Diego Alejandro Milanés Carreño,department,ciencias,1
+47,56,José Luis Mantari Laureano,Hermes Pantoja Carhuavilca,department,ciencias,1
+47,58,José Luis Mantari Laureano,Alexander Peña Nevado,department,ciencias,1
+47,59,José Luis Mantari Laureano,Sergio Quispe Rodriguez,department,ciencias,1
+47,65,José Luis Mantari Laureano,Jose Renom Andara,department,ciencias,1
+47,66,José Luis Mantari Laureano,Alejandro Rios Cuadros,department,ciencias,1
+47,71,José Luis Mantari Laureano,Nedher Sanchez Ramirez,department,ciencias,1
+47,90,José Luis Mantari Laureano,Katia Zegarra Sierra,department,ciencias,1
+48,78,Giancarlo Marcone Flores,Matteo Stiglich Labarthe,department,"humanidades, artes y ciencias sociales",1
+48,89,Giancarlo Marcone Flores,Romina Perla Yalonetzky Mankevich,department,"humanidades, artes y ciencias sociales",1
+48,91,Giancarlo Marcone Flores,Carlos Zorrilla Aranguren,department,"humanidades, artes y ciencias sociales",1
+49,56,Diego Alejandro Milanés Carreño,Hermes Pantoja Carhuavilca,department,ciencias,1
+49,58,Diego Alejandro Milanés Carreño,Alexander Peña Nevado,department,ciencias,1
+49,59,Diego Alejandro Milanés Carreño,Sergio Quispe Rodriguez,department,ciencias,1
+49,65,Diego Alejandro Milanés Carreño,Jose Renom Andara,department,ciencias,1
+49,66,Diego Alejandro Milanés Carreño,Alejandro Rios Cuadros,department,ciencias,1
+49,71,Diego Alejandro Milanés Carreño,Nedher Sanchez Ramirez,department,ciencias,1
+49,90,Diego Alejandro Milanés Carreño,Katia Zegarra Sierra,department,ciencias,1
+50,52,Rensso Victor Hugo Mora Colque,Angel Napa Bernuy,department,ciencia de la computacion,1
+50,70,Rensso Victor Hugo Mora Colque,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+50,75,Rensso Victor Hugo Mora Colque,Igor Siveroni Salinas,department,ciencia de la computacion,1
+50,76,Rensso Victor Hugo Mora Colque,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+50,81,Rensso Victor Hugo Mora Colque,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+52,70,Angel Napa Bernuy,Heider Sánchez Enriquez,department,ciencia de la computacion,1
+52,75,Angel Napa Bernuy,Igor Siveroni Salinas,department,ciencia de la computacion,1
+52,76,Angel Napa Bernuy,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+52,81,Angel Napa Bernuy,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+53,60,Julien Noel,Elmer Ramirez Quiroz,department,ingenieria mecanica y de la energia,1
+53,62,Julien Noel,José Ramos Saravia,department,ingenieria mecanica y de la energia,1
+53,85,Julien Noel,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+53,86,Julien Noel,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+53,87,Julien Noel,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+54,61,Moises Nuñez Ochoa,Oscar Ramos Ponce,department,ingenieria electronica y mecatronica,1
+54,80,Moises Nuñez Ochoa,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+56,58,Hermes Pantoja Carhuavilca,Alexander Peña Nevado,department,ciencias,1
+56,59,Hermes Pantoja Carhuavilca,Sergio Quispe Rodriguez,department,ciencias,1
+56,65,Hermes Pantoja Carhuavilca,Jose Renom Andara,department,ciencias,1
+56,66,Hermes Pantoja Carhuavilca,Alejandro Rios Cuadros,department,ciencias,1
+56,71,Hermes Pantoja Carhuavilca,Nedher Sanchez Ramirez,department,ciencias,1
+56,90,Hermes Pantoja Carhuavilca,Katia Zegarra Sierra,department,ciencias,1
+57,63,Carolina Parada Quinaya,Alejandra Ratti Parandelli,department,bioingenieria e ingenieria quimica,1
+57,67,Carolina Parada Quinaya,Juan Carlos Rodríguez Reyes,department,bioingenieria e ingenieria quimica,1
+57,68,Carolina Parada Quinaya,Ursula Rodriguez Zuñiga,department,bioingenieria e ingenieria quimica,1
+57,69,Carolina Parada Quinaya,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+57,79,Carolina Parada Quinaya,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+57,83,Carolina Parada Quinaya,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+58,59,Alexander Peña Nevado,Sergio Quispe Rodriguez,department,ciencias,1
+58,65,Alexander Peña Nevado,Jose Renom Andara,department,ciencias,1
+58,66,Alexander Peña Nevado,Alejandro Rios Cuadros,department,ciencias,1
+58,71,Alexander Peña Nevado,Nedher Sanchez Ramirez,department,ciencias,1
+58,90,Alexander Peña Nevado,Katia Zegarra Sierra,department,ciencias,1
+59,65,Sergio Quispe Rodriguez,Jose Renom Andara,department,ciencias,1
+59,66,Sergio Quispe Rodriguez,Alejandro Rios Cuadros,department,ciencias,1
+59,71,Sergio Quispe Rodriguez,Nedher Sanchez Ramirez,department,ciencias,1
+59,90,Sergio Quispe Rodriguez,Katia Zegarra Sierra,department,ciencias,1
+60,62,Elmer Ramirez Quiroz,José Ramos Saravia,department,ingenieria mecanica y de la energia,1
+60,85,Elmer Ramirez Quiroz,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+60,86,Elmer Ramirez Quiroz,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+60,87,Elmer Ramirez Quiroz,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+61,80,Oscar Ramos Ponce,Jimmy Tarrillo Olano,department,ingenieria electronica y mecatronica,1
+62,85,José Ramos Saravia,Emir Augusto Vela Saavedra,department,ingenieria mecanica y de la energia,1
+62,86,José Ramos Saravia,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+62,87,José Ramos Saravia,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+63,67,Alejandra Ratti Parandelli,Juan Carlos Rodríguez Reyes,department,bioingenieria e ingenieria quimica,1
+63,68,Alejandra Ratti Parandelli,Ursula Rodriguez Zuñiga,department,bioingenieria e ingenieria quimica,1
+63,69,Alejandra Ratti Parandelli,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+63,79,Alejandra Ratti Parandelli,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+63,83,Alejandra Ratti Parandelli,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+64,72,Pedro Rau Lavado,Monica C. Santa-Maria,department,ingenieria civil y ambiental,1
+64,84,Pedro Rau Lavado,Elba Rosaura Vazques Arrieta,department,ingenieria civil y ambiental,1
+65,66,Jose Renom Andara,Alejandro Rios Cuadros,department,ciencias,1
+65,71,Jose Renom Andara,Nedher Sanchez Ramirez,department,ciencias,1
+65,90,Jose Renom Andara,Katia Zegarra Sierra,department,ciencias,1
+66,71,Alejandro Rios Cuadros,Nedher Sanchez Ramirez,department,ciencias,1
+66,90,Alejandro Rios Cuadros,Katia Zegarra Sierra,department,ciencias,1
+67,68,Juan Carlos Rodríguez Reyes,Ursula Rodriguez Zuñiga,department,bioingenieria e ingenieria quimica,1
+67,69,Juan Carlos Rodríguez Reyes,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+67,79,Juan Carlos Rodríguez Reyes,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+67,83,Juan Carlos Rodríguez Reyes,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+68,69,Ursula Rodriguez Zuñiga,Harry Gustavo Saavedra Espinoza,department,bioingenieria e ingenieria quimica,1
+68,79,Ursula Rodriguez Zuñiga,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+68,83,Ursula Rodriguez Zuñiga,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+69,79,Harry Gustavo Saavedra Espinoza,Francisco Tarazona Vásquez,department,bioingenieria e ingenieria quimica,1
+69,83,Harry Gustavo Saavedra Espinoza,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+70,75,Heider Sánchez Enriquez,Igor Siveroni Salinas,department,ciencia de la computacion,1
+70,76,Heider Sánchez Enriquez,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+70,81,Heider Sánchez Enriquez,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+71,90,Nedher Sanchez Ramirez,Katia Zegarra Sierra,department,ciencias,1
+72,84,Monica C. Santa-Maria,Elba Rosaura Vazques Arrieta,department,ingenieria civil y ambiental,1
+75,76,Igor Siveroni Salinas,Aurea Rossy Soriano Vargas,department,ciencia de la computacion,1
+75,81,Igor Siveroni Salinas,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+76,81,Aurea Rossy Soriano Vargas,Jorge Tipe Villanueva,department,ciencia de la computacion,1
+78,89,Matteo Stiglich Labarthe,Romina Perla Yalonetzky Mankevich,department,"humanidades, artes y ciencias sociales",1
+78,91,Matteo Stiglich Labarthe,Carlos Zorrilla Aranguren,department,"humanidades, artes y ciencias sociales",1
+79,83,Francisco Tarazona Vásquez,Julio Ernesto Valdivia Silva,department,bioingenieria e ingenieria quimica,1
+85,86,Emir Augusto Vela Saavedra,Rafael Vera Pomalaza,department,ingenieria mecanica y de la energia,1
+85,87,Emir Augusto Vela Saavedra,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+86,87,Rafael Vera Pomalaza,Eunice Villicaña Ortiz,department,ingenieria mecanica y de la energia,1
+89,91,Romina Perla Yalonetzky Mankevich,Carlos Zorrilla Aranguren,department,"humanidades, artes y ciencias sociales",1
+0,3,José Manuel Aguilar Alfaro,Claudia Antonini Bova,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+0,17,José Manuel Aguilar Alfaro,Fabien Cornillier,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+0,26,José Manuel Aguilar Alfaro,Luis Ernesto Flores Luyo,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+0,34,José Manuel Aguilar Alfaro,Julio Gutierrez Alva,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+0,44,José Manuel Aguilar Alfaro,Jose Larco Martinelli,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+0,74,José Manuel Aguilar Alfaro,Yamilet Rosario Serrano Llerena,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+2,5,Helard Alvarez Sanchez,Patricia Araujo Pantoja,research_group,grupo de investigacion en energia y minas,1
+2,8,Helard Alvarez Sanchez,Omar Bejarano Grández,research_group,grupo de investigacion en diseno de productos con simulacion computacional | grupo de investigacion en energia y minas,2
+2,47,Helard Alvarez Sanchez,José Luis Mantari Laureano,research_group,grupo de investigacion en diseno de productos con simulacion computacional,1
+2,53,Helard Alvarez Sanchez,Julien Noel,research_group,grupo de investigacion en energia y minas,1
+2,60,Helard Alvarez Sanchez,Elmer Ramirez Quiroz,research_group,grupo de investigacion en energia y minas,1
+2,62,Helard Alvarez Sanchez,José Ramos Saravia,research_group,grupo de investigacion en diseno de productos con simulacion computacional | grupo de investigacion en energia y minas,2
+2,67,Helard Alvarez Sanchez,Juan Carlos Rodríguez Reyes,research_group,grupo de investigacion en energia y minas,1
+2,86,Helard Alvarez Sanchez,Rafael Vera Pomalaza,research_group,grupo de investigacion en energia y minas,1
+2,87,Helard Alvarez Sanchez,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1
+3,17,Claudia Antonini Bova,Fabien Cornillier,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+3,26,Claudia Antonini Bova,Luis Ernesto Flores Luyo,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+3,34,Claudia Antonini Bova,Julio Gutierrez Alva,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+3,44,Claudia Antonini Bova,Jose Larco Martinelli,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+3,74,Claudia Antonini Bova,Yamilet Rosario Serrano Llerena,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+5,8,Patricia Araujo Pantoja,Omar Bejarano Grández,research_group,grupo de investigacion en energia y minas,1
+5,53,Patricia Araujo Pantoja,Julien Noel,research_group,grupo de investigacion en energia y minas,1
+5,60,Patricia Araujo Pantoja,Elmer Ramirez Quiroz,research_group,grupo de investigacion en energia y minas,1
+5,62,Patricia Araujo Pantoja,José Ramos Saravia,research_group,grupo de investigacion en energia y minas,1
+5,67,Patricia Araujo Pantoja,Juan Carlos Rodríguez Reyes,research_group,grupo de investigacion en energia y minas,1
+5,86,Patricia Araujo Pantoja,Rafael Vera Pomalaza,research_group,grupo de investigacion en energia y minas,1
+5,87,Patricia Araujo Pantoja,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1
+6,13,Andrés Julián Arias Moreno,Ruth Canahuire Cabello,research_group,centro de investigacion en bioingenieria - bio,1
+6,14,Andrés Julián Arias Moreno,Paul Cardenas Lizana,research_group,centro de investigacion en bioingenieria - bio,1
+6,23,Andrés Julián Arias Moreno,Alberto Donayre Torres,research_group,centro de investigacion en bioingenieria - bio,1
+6,25,Andrés Julián Arias Moreno,Elena Flores Barreda,research_group,centro de investigacion en bioingenieria - bio,1
+6,39,Andrés Julián Arias Moreno,Deyby Huamanchahua Canchanya,research_group,centro de investigacion en bioingenieria - bio,1
+6,40,Andrés Julián Arias Moreno,Dante Inga Narvaez,research_group,centro de investigacion en bioingenieria - bio,1
+6,43,Andrés Julián Arias Moreno,Wangdo Kim,research_group,centro de investigacion en bioingenieria - bio,1
+6,63,Andrés Julián Arias Moreno,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+6,69,Andrés Julián Arias Moreno,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+6,83,Andrés Julián Arias Moreno,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+6,85,Andrés Julián Arias Moreno,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+7,10,Luis Bedriñana Mera,Carlos Alberto Benedetty Torres,research_group,grupo de investigacion en infraestructura de concreto resiliente y sostenible,1
+7,15,Luis Bedriñana Mera,Samuel Charca Mamani,research_group,centro de investigacion y conservacion del patrimonio,1
+7,20,Luis Bedriñana Mera,José Andrés De Leo Martínez,research_group,centro de investigacion y conservacion del patrimonio,1
+7,24,Luis Bedriñana Mera,Jose Fiestas Iquira,research_group,grupo de investigacion en infraestructura de concreto resiliente y sostenible,1
+7,67,Luis Bedriñana Mera,Juan Carlos Rodríguez Reyes,research_group,centro de investigacion y conservacion del patrimonio,1
+7,84,Luis Bedriñana Mera,Elba Rosaura Vazques Arrieta,research_group,centro de investigacion del cemento y concreto - cic,1
+8,47,Omar Bejarano Grández,José Luis Mantari Laureano,research_group,grupo de investigacion en diseno de productos con simulacion computacional,1
+8,53,Omar Bejarano Grández,Julien Noel,research_group,grupo de investigacion en energia y minas,1
+8,60,Omar Bejarano Grández,Elmer Ramirez Quiroz,research_group,grupo de investigacion en energia y minas,1
+8,62,Omar Bejarano Grández,José Ramos Saravia,research_group,grupo de investigacion en diseno de productos con simulacion computacional | grupo de investigacion en energia y minas,2
+8,67,Omar Bejarano Grández,Juan Carlos Rodríguez Reyes,research_group,grupo de investigacion en energia y minas,1
+8,86,Omar Bejarano Grández,Rafael Vera Pomalaza,research_group,grupo de investigacion en energia y minas,1
+8,87,Omar Bejarano Grández,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1
+9,17,Jesús Edwin Bellido Angulo,Fabien Cornillier,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+9,22,Jesús Edwin Bellido Angulo,Manuel Arturo Deza Figueroa,research_group,grupo de investigacion en inteligencia artificial,1
+9,24,Jesús Edwin Bellido Angulo,Jose Fiestas Iquira,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+9,28,Jesús Edwin Bellido Angulo,José Tomás Gálvez Ghersi,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+9,30,Jesús Edwin Bellido Angulo,Germain García Zanabria,research_group,grupo de investigacion en inteligencia artificial,1
+9,31,Jesús Edwin Bellido Angulo,Jorge Gonzalez Reaño,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+9,33,Jesús Edwin Bellido Angulo,Juan Gabriel Gutierrez Alva,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+9,45,Jesús Edwin Bellido Angulo,Cristian Lopez Del Alamo,research_group,centro de investigacion en sostenibilidad computacional - compsust | grupo de investigacion en inteligencia artificial,2
+9,74,Jesús Edwin Bellido Angulo,Yamilet Rosario Serrano Llerena,research_group,centro de investigacion en sostenibilidad computacional - compsust | grupo de investigacion en inteligencia artificial,2
+9,75,Jesús Edwin Bellido Angulo,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+10,24,Carlos Alberto Benedetty Torres,Jose Fiestas Iquira,research_group,grupo de investigacion en infraestructura de concreto resiliente y sostenible,1
+12,13,Jhedmar Jhonatan Callupe Luna,Ruth Canahuire Cabello,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+12,27,Jhedmar Jhonatan Callupe Luna,Christian Flores Vega,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+12,39,Jhedmar Jhonatan Callupe Luna,Deyby Huamanchahua Canchanya,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+12,40,Jhedmar Jhonatan Callupe Luna,Dante Inga Narvaez,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+12,41,Jhedmar Jhonatan Callupe Luna,Elvis Jara Alegria,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+12,61,Jhedmar Jhonatan Callupe Luna,Oscar Ramos Ponce,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+13,14,Ruth Canahuire Cabello,Paul Cardenas Lizana,research_group,centro de investigacion en bioingenieria - bio,1
+13,23,Ruth Canahuire Cabello,Alberto Donayre Torres,research_group,centro de investigacion en bioingenieria - bio,1
+13,25,Ruth Canahuire Cabello,Elena Flores Barreda,research_group,centro de investigacion en bioingenieria - bio,1
+13,27,Ruth Canahuire Cabello,Christian Flores Vega,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+13,39,Ruth Canahuire Cabello,Deyby Huamanchahua Canchanya,research_group,"centro de investigacion en bioingenieria - bio | grupo de investigacion en robotica, inteligencia artificial y control avanzado",2
+13,40,Ruth Canahuire Cabello,Dante Inga Narvaez,research_group,"centro de investigacion en bioingenieria - bio | grupo de investigacion en robotica, inteligencia artificial y control avanzado",2
+13,41,Ruth Canahuire Cabello,Elvis Jara Alegria,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+13,43,Ruth Canahuire Cabello,Wangdo Kim,research_group,centro de investigacion en bioingenieria - bio,1
+13,61,Ruth Canahuire Cabello,Oscar Ramos Ponce,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+13,63,Ruth Canahuire Cabello,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+13,69,Ruth Canahuire Cabello,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+13,83,Ruth Canahuire Cabello,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+13,85,Ruth Canahuire Cabello,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+14,23,Paul Cardenas Lizana,Alberto Donayre Torres,research_group,centro de investigacion en bioingenieria - bio,1
+14,25,Paul Cardenas Lizana,Elena Flores Barreda,research_group,centro de investigacion en bioingenieria - bio,1
+14,39,Paul Cardenas Lizana,Deyby Huamanchahua Canchanya,research_group,centro de investigacion en bioingenieria - bio,1
+14,40,Paul Cardenas Lizana,Dante Inga Narvaez,research_group,centro de investigacion en bioingenieria - bio,1
+14,43,Paul Cardenas Lizana,Wangdo Kim,research_group,centro de investigacion en bioingenieria - bio,1
+14,63,Paul Cardenas Lizana,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+14,69,Paul Cardenas Lizana,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+14,83,Paul Cardenas Lizana,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+14,85,Paul Cardenas Lizana,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+15,20,Samuel Charca Mamani,José Andrés De Leo Martínez,research_group,centro de investigacion y conservacion del patrimonio,1
+15,67,Samuel Charca Mamani,Juan Carlos Rodríguez Reyes,research_group,centro de investigacion y conservacion del patrimonio,1
+17,24,Fabien Cornillier,Jose Fiestas Iquira,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+17,26,Fabien Cornillier,Luis Ernesto Flores Luyo,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+17,28,Fabien Cornillier,José Tomás Gálvez Ghersi,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+17,31,Fabien Cornillier,Jorge Gonzalez Reaño,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+17,33,Fabien Cornillier,Juan Gabriel Gutierrez Alva,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+17,34,Fabien Cornillier,Julio Gutierrez Alva,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+17,44,Fabien Cornillier,Jose Larco Martinelli,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+17,45,Fabien Cornillier,Cristian Lopez Del Alamo,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+17,74,Fabien Cornillier,Yamilet Rosario Serrano Llerena,research_group,centro de investigacion en sostenibilidad computacional - compsust | grupo de investigacion en analitica de datos y ciencias de decision,2
+17,75,Fabien Cornillier,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+18,36,Antuané De La Flor Basterrechea,Oscar Hidalgo Wuest,research_group,centro de impacto y responsabilidad social - cirso,1
+18,48,Antuané De La Flor Basterrechea,Giancarlo Marcone Flores,research_group,centro de impacto y responsabilidad social - cirso,1
+18,78,Antuané De La Flor Basterrechea,Matteo Stiglich Labarthe,research_group,centro de impacto y responsabilidad social - cirso,1
+18,89,Antuané De La Flor Basterrechea,Romina Perla Yalonetzky Mankevich,research_group,centro de impacto y responsabilidad social - cirso,1
+20,67,José Andrés De Leo Martínez,Juan Carlos Rodríguez Reyes,research_group,centro de investigacion y conservacion del patrimonio,1
+22,30,Manuel Arturo Deza Figueroa,Germain García Zanabria,research_group,grupo de investigacion en inteligencia artificial,1
+22,45,Manuel Arturo Deza Figueroa,Cristian Lopez Del Alamo,research_group,grupo de investigacion en inteligencia artificial,1
+22,74,Manuel Arturo Deza Figueroa,Yamilet Rosario Serrano Llerena,research_group,grupo de investigacion en inteligencia artificial,1
+23,25,Alberto Donayre Torres,Elena Flores Barreda,research_group,centro de investigacion en bioingenieria - bio,1
+23,39,Alberto Donayre Torres,Deyby Huamanchahua Canchanya,research_group,centro de investigacion en bioingenieria - bio,1
+23,40,Alberto Donayre Torres,Dante Inga Narvaez,research_group,centro de investigacion en bioingenieria - bio,1
+23,43,Alberto Donayre Torres,Wangdo Kim,research_group,centro de investigacion en bioingenieria - bio,1
+23,63,Alberto Donayre Torres,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+23,69,Alberto Donayre Torres,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+23,83,Alberto Donayre Torres,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+23,85,Alberto Donayre Torres,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+24,28,Jose Fiestas Iquira,José Tomás Gálvez Ghersi,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+24,31,Jose Fiestas Iquira,Jorge Gonzalez Reaño,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+24,33,Jose Fiestas Iquira,Juan Gabriel Gutierrez Alva,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+24,45,Jose Fiestas Iquira,Cristian Lopez Del Alamo,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+24,74,Jose Fiestas Iquira,Yamilet Rosario Serrano Llerena,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+24,75,Jose Fiestas Iquira,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+25,39,Elena Flores Barreda,Deyby Huamanchahua Canchanya,research_group,centro de investigacion en bioingenieria - bio,1
+25,40,Elena Flores Barreda,Dante Inga Narvaez,research_group,centro de investigacion en bioingenieria - bio,1
+25,43,Elena Flores Barreda,Wangdo Kim,research_group,centro de investigacion en bioingenieria - bio,1
+25,63,Elena Flores Barreda,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+25,69,Elena Flores Barreda,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+25,83,Elena Flores Barreda,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+25,85,Elena Flores Barreda,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+26,34,Luis Ernesto Flores Luyo,Julio Gutierrez Alva,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+26,44,Luis Ernesto Flores Luyo,Jose Larco Martinelli,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+26,74,Luis Ernesto Flores Luyo,Yamilet Rosario Serrano Llerena,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+27,39,Christian Flores Vega,Deyby Huamanchahua Canchanya,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+27,40,Christian Flores Vega,Dante Inga Narvaez,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+27,41,Christian Flores Vega,Elvis Jara Alegria,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+27,61,Christian Flores Vega,Oscar Ramos Ponce,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+28,31,José Tomás Gálvez Ghersi,Jorge Gonzalez Reaño,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+28,33,José Tomás Gálvez Ghersi,Juan Gabriel Gutierrez Alva,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+28,45,José Tomás Gálvez Ghersi,Cristian Lopez Del Alamo,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+28,49,José Tomás Gálvez Ghersi,Diego Alejandro Milanés Carreño,research_group,grupo de investigacion en fisica fundamental,1
+28,74,José Tomás Gálvez Ghersi,Yamilet Rosario Serrano Llerena,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+28,75,José Tomás Gálvez Ghersi,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+30,45,Germain García Zanabria,Cristian Lopez Del Alamo,research_group,grupo de investigacion en inteligencia artificial,1
+30,74,Germain García Zanabria,Yamilet Rosario Serrano Llerena,research_group,grupo de investigacion en inteligencia artificial,1
+31,33,Jorge Gonzalez Reaño,Juan Gabriel Gutierrez Alva,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+31,45,Jorge Gonzalez Reaño,Cristian Lopez Del Alamo,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+31,74,Jorge Gonzalez Reaño,Yamilet Rosario Serrano Llerena,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+31,75,Jorge Gonzalez Reaño,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+32,37,Leo Guerrero,Daniel Vicente Horna Muñoz,research_group,centro de investigacion y tecnologia del agua - cita,1
+32,51,Leo Guerrero,Monica Cristina Moreno Brush,research_group,centro de investigacion y tecnologia del agua - cita,1
+32,64,Leo Guerrero,Pedro Rau Lavado,research_group,centro de investigacion y tecnologia del agua - cita,1
+32,72,Leo Guerrero,Monica C. Santa-Maria,research_group,centro de investigacion y tecnologia del agua - cita,1
+33,45,Juan Gabriel Gutierrez Alva,Cristian Lopez Del Alamo,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+33,52,Juan Gabriel Gutierrez Alva,Angel Napa Bernuy,research_group,"grupo de investigacion en algoritmos, combinatoria y teoria de la computacion",1
+33,74,Juan Gabriel Gutierrez Alva,Yamilet Rosario Serrano Llerena,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+33,75,Juan Gabriel Gutierrez Alva,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+33,81,Juan Gabriel Gutierrez Alva,Jorge Tipe Villanueva,research_group,"grupo de investigacion en algoritmos, combinatoria y teoria de la computacion",1
+34,44,Julio Gutierrez Alva,Jose Larco Martinelli,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+34,74,Julio Gutierrez Alva,Yamilet Rosario Serrano Llerena,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+36,48,Oscar Hidalgo Wuest,Giancarlo Marcone Flores,research_group,centro de impacto y responsabilidad social - cirso,1
+36,78,Oscar Hidalgo Wuest,Matteo Stiglich Labarthe,research_group,centro de impacto y responsabilidad social - cirso,1
+36,89,Oscar Hidalgo Wuest,Romina Perla Yalonetzky Mankevich,research_group,centro de impacto y responsabilidad social - cirso,1
+37,51,Daniel Vicente Horna Muñoz,Monica Cristina Moreno Brush,research_group,centro de investigacion y tecnologia del agua - cita,1
+37,64,Daniel Vicente Horna Muñoz,Pedro Rau Lavado,research_group,centro de investigacion y tecnologia del agua - cita | grupo de investigacion en seguridad hidrica y cambio climatico,2
+37,72,Daniel Vicente Horna Muñoz,Monica C. Santa-Maria,research_group,centro de investigacion y tecnologia del agua - cita,1
+39,40,Deyby Huamanchahua Canchanya,Dante Inga Narvaez,research_group,"centro de investigacion en bioingenieria - bio | grupo de investigacion en robotica, inteligencia artificial y control avanzado",2
+39,41,Deyby Huamanchahua Canchanya,Elvis Jara Alegria,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+39,43,Deyby Huamanchahua Canchanya,Wangdo Kim,research_group,centro de investigacion en bioingenieria - bio,1
+39,61,Deyby Huamanchahua Canchanya,Oscar Ramos Ponce,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+39,63,Deyby Huamanchahua Canchanya,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+39,69,Deyby Huamanchahua Canchanya,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+39,83,Deyby Huamanchahua Canchanya,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+39,85,Deyby Huamanchahua Canchanya,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+40,41,Dante Inga Narvaez,Elvis Jara Alegria,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+40,43,Dante Inga Narvaez,Wangdo Kim,research_group,centro de investigacion en bioingenieria - bio,1
+40,61,Dante Inga Narvaez,Oscar Ramos Ponce,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+40,63,Dante Inga Narvaez,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+40,69,Dante Inga Narvaez,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+40,83,Dante Inga Narvaez,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+40,85,Dante Inga Narvaez,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+41,61,Elvis Jara Alegria,Oscar Ramos Ponce,research_group,"grupo de investigacion en robotica, inteligencia artificial y control avanzado",1
+43,63,Wangdo Kim,Alejandra Ratti Parandelli,research_group,centro de investigacion en bioingenieria - bio,1
+43,69,Wangdo Kim,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+43,83,Wangdo Kim,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+43,85,Wangdo Kim,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+44,74,Jose Larco Martinelli,Yamilet Rosario Serrano Llerena,research_group,grupo de investigacion en analitica de datos y ciencias de decision,1
+45,74,Cristian Lopez Del Alamo,Yamilet Rosario Serrano Llerena,research_group,centro de investigacion en sostenibilidad computacional - compsust | grupo de investigacion en inteligencia artificial,2
+45,75,Cristian Lopez Del Alamo,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+47,62,José Luis Mantari Laureano,José Ramos Saravia,research_group,grupo de investigacion en diseno de productos con simulacion computacional,1
+48,78,Giancarlo Marcone Flores,Matteo Stiglich Labarthe,research_group,centro de impacto y responsabilidad social - cirso,1
+48,89,Giancarlo Marcone Flores,Romina Perla Yalonetzky Mankevich,research_group,centro de impacto y responsabilidad social - cirso,1
+51,64,Monica Cristina Moreno Brush,Pedro Rau Lavado,research_group,centro de investigacion y tecnologia del agua - cita,1
+51,72,Monica Cristina Moreno Brush,Monica C. Santa-Maria,research_group,centro de investigacion y tecnologia del agua - cita,1
+52,81,Angel Napa Bernuy,Jorge Tipe Villanueva,research_group,"grupo de investigacion en algoritmos, combinatoria y teoria de la computacion",1
+53,60,Julien Noel,Elmer Ramirez Quiroz,research_group,grupo de investigacion en energia y minas,1
+53,62,Julien Noel,José Ramos Saravia,research_group,grupo de investigacion en energia y minas,1
+53,67,Julien Noel,Juan Carlos Rodríguez Reyes,research_group,grupo de investigacion en energia y minas,1
+53,86,Julien Noel,Rafael Vera Pomalaza,research_group,grupo de investigacion en energia y minas,1
+53,87,Julien Noel,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1
+54,80,Moises Nuñez Ochoa,Jimmy Tarrillo Olano,research_group,"grupo de investigacion en sistemas embebidos, reconfigurables, monitoreo inteligente, y comunicaciones",1
+60,62,Elmer Ramirez Quiroz,José Ramos Saravia,research_group,grupo de investigacion en energia y minas,1
+60,67,Elmer Ramirez Quiroz,Juan Carlos Rodríguez Reyes,research_group,grupo de investigacion en energia y minas,1
+60,86,Elmer Ramirez Quiroz,Rafael Vera Pomalaza,research_group,grupo de investigacion en energia y minas,1
+60,87,Elmer Ramirez Quiroz,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1
+62,67,José Ramos Saravia,Juan Carlos Rodríguez Reyes,research_group,grupo de investigacion en energia y minas,1
+62,86,José Ramos Saravia,Rafael Vera Pomalaza,research_group,grupo de investigacion en energia y minas,1
+62,87,José Ramos Saravia,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1
+63,69,Alejandra Ratti Parandelli,Harry Gustavo Saavedra Espinoza,research_group,centro de investigacion en bioingenieria - bio,1
+63,83,Alejandra Ratti Parandelli,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+63,85,Alejandra Ratti Parandelli,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+64,72,Pedro Rau Lavado,Monica C. Santa-Maria,research_group,centro de investigacion y tecnologia del agua - cita,1
+67,86,Juan Carlos Rodríguez Reyes,Rafael Vera Pomalaza,research_group,grupo de investigacion en energia y minas,1
+67,87,Juan Carlos Rodríguez Reyes,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1
+69,83,Harry Gustavo Saavedra Espinoza,Julio Ernesto Valdivia Silva,research_group,centro de investigacion en bioingenieria - bio,1
+69,85,Harry Gustavo Saavedra Espinoza,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+74,75,Yamilet Rosario Serrano Llerena,Igor Siveroni Salinas,research_group,centro de investigacion en sostenibilidad computacional - compsust,1
+78,89,Matteo Stiglich Labarthe,Romina Perla Yalonetzky Mankevich,research_group,centro de impacto y responsabilidad social - cirso,1
+83,85,Julio Ernesto Valdivia Silva,Emir Augusto Vela Saavedra,research_group,centro de investigacion en bioingenieria - bio,1
+86,87,Rafael Vera Pomalaza,Eunice Villicaña Ortiz,research_group,grupo de investigacion en energia y minas,1

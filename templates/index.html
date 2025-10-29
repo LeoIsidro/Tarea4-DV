@@ -2,23 +2,68 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <title>Matius y Leo y Cristian</title>
- <script src="https://d3js.org/d3.v7.min.js"></script>
- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta charset="UTF-8">
+  <title>Matius y Leo y Cristian</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
-  <!-- Hero / gráfico grande a pantalla completa -->
-  <div id="HeroChart" class="hero-chart">
-    <!-- El contenido se renderizará dinámicamente con D3.js -->
+  <div class="layout">
+    <div class="graph-pane">
+      <!-- Hero / gráfico grande -->
+      <div id="HeroChart" class="hero-chart"></div>
+    </div>
+
+    <aside class="faq-section">
+      <h2 class="faq-title">Preguntas y respuestas</h2>
+      <div class="faq-items">
+        <div class="faq-item">
+          <button type="button" class="faq-question">¿Cuál es el objetivo del grafo?</button>
+          <div class="faq-answer">
+            <p>El grafo busca visualizar las colaboraciones académicas entre los profesores de UTEC.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="faq-question">¿Cómo se interpreta el tamaño de cada nodo?</button>
+          <div class="faq-answer">
+            <p>El tamaño del nodo refleja el número de citas del profesor y se ajusta automáticamente al filtrar.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="faq-question">¿Qué representa el color del borde?</button>
+          <div class="faq-answer">
+            <p>El color del borde indica el departamento al que pertenece cada profesor dentro de la red.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="faq-question">¿Cuál es el objetivo del grafo?</button>
+          <div class="faq-answer">
+            <p>El grafo busca visualizar las colaboraciones académicas entre los profesores de UTEC.</p>
+          </div>
+        </div>
+      </div>
+    </aside>
   </div>
 
- <script src="{{ url_for('static', filename='js/NetworkGraph.js') }}"></script>
- 
- <script>
-   // Inicializar el gráfico de red
-   createNetworkGraph('#HeroChart');  
- </script>
+  <script src="{{ url_for('static', filename='js/NetworkGraph_3.js') }}"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      createNetworkGraph('#HeroChart');
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(item => {
+        const button = item.querySelector('.faq-question');
+        button.addEventListener('click', () => {
+          const isOpen = item.classList.contains('open');
+          faqItems.forEach(i => i.classList.remove('open'));
+          if (!isOpen) {
+            item.classList.add('open');
+          }
+        });
+      });
+    });
+  </script>
 </body>
+
 </html>

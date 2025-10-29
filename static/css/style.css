@@ -5,7 +5,15 @@ body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     overflow: hidden;
 }
+.layout {
+    display: flex;
+    height: 100vh;           /* ambas columnas a alto de pantalla */
+}
 
+.graph-pane {
+    flex: 1 1 auto;          /* el gráfico ocupa el espacio disponible */
+    min-width: 0;            /* evita desbordes en flex */
+}
 .header {
     background: #f2f2f2;
     border-bottom: 1px solid #ccc;
@@ -63,15 +71,15 @@ body {
     min-height: 300px; /* Altura mínima */
 }
 
-/* Hero / gráfico grande a pantalla completa */
+/* Ajuste del hero para ocupar toda la columna izquierda */
 .hero-chart {
     width: 100%;
-    height: 100vh;
+    height: 100%;            /* llena la columna izquierda */
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #f6f9fc 0%, #e9ecef 50%, #dee2e6 100%);
-    border-bottom: 2px solid #6c757d;
+    border-right: 2px solid #6c757d;  /* separador vertical */
     position: relative;
     overflow: hidden;
 }
@@ -190,5 +198,116 @@ input:focus, select:focus {
     .controls {
         width: 90% !important;
         max-width: none !important;
+    }
+}
+
+/* Sidebar FAQ a la derecha */
+.faq-section {
+    width: 360px;            /* ancho de sidebar */
+    flex: 0 0 360px;
+    height: 100vh;           /* ocupa alto completo */
+    overflow-y: auto;        /* scroll independiente para FAQ */
+    padding: 40px 20px 60px;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.faq-title {
+    margin: 0;
+    color: #0b3b66;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.faq-items {
+    width: min(780px, 90%);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faq-item {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgba(15, 23, 42, 0.1);
+    box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-item.open {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 18px 22px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.faq-question::after {
+    content: '+';
+    font-size: 20px;
+    color: #2563eb;
+    transition: transform 0.2s ease;
+}
+
+.faq-item.open .faq-question {
+    color: #2563eb;
+}
+
+.faq-item.open .faq-question::after {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 22px;
+    color: #4b5563;
+    font-size: 15px;
+    line-height: 1.6;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-item.open .faq-answer {
+    padding: 0 22px 18px;
+    max-height: 200px;
+}
+
+/* Responsive: apilar en pantallas pequeñas */
+@media (max-width: 900px) {
+    .layout {
+        flex-direction: column;
+        height: auto;
+    }
+    .graph-pane {
+        height: auto;
+    }
+    .hero-chart {
+        height: 50vh;        /* gráfico más bajo en mobile */
+        border-right: none;
+        border-bottom: 2px solid #6c757d;
+    }
+    .faq-section {
+        width: 100%;
+        flex: none;
+        height: auto;
+        overflow: visible;
     }
 }
