@@ -10,7 +10,7 @@ FACULTY_EDGES_PATH = "data/faculty_edges.csv"
 
 FACULTY_EDGES_2_PATH = "data/faculty_edges_by_dept_and_groups.csv"
 
-FACULTY_EDGES_3_PATH = "data/areas_w2v_edges.csv"
+FACULTY_EDGES_3_PATH = "data/faculty_department_edges.csv"
 
 @app.route('/')
 def hello_world():
@@ -52,14 +52,14 @@ def get_faculty_edges_2():
     except Exception as e:
         return jsonify({"error": f"Error leyendo archivo CSV: {str(e)}"}), 500
 
-@app.route('/api/faculty_edges_3')
-def get_faculty_edges_3():
+@app.route('/api/faculty_department_edges')
+def get_faculty_department_edges():
     """Endpoint para obtener datos de enlaces entre profesores (CSV)"""
     try:
         df = pd.read_csv(FACULTY_EDGES_3_PATH)
         return jsonify(df.to_dict(orient='records'))
     except FileNotFoundError:
-        return jsonify({"error": "Archivo areas_w2v_edges.csv no encontrado"}), 404
+        return jsonify({"error": "Archivo faculty_department_edges.csv no encontrado"}), 404
     except Exception as e:
         return jsonify({"error": f"Error leyendo archivo CSV: {str(e)}"}), 500
 

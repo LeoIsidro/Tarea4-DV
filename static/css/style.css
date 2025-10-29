@@ -177,7 +177,6 @@ button {
 }
 
 button:hover {
-    background: #f3f4f6 !important;
     border-color: #9ca3af !important;
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -213,6 +212,25 @@ input:focus, select:focus {
     flex-direction: column;
     align-items: center;
     gap: 18px;
+}
+
+.sidebar-toggle {
+    position: fixed;
+    top: 20px;
+    right: calc(360px + 48px);
+    z-index: 1100;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 999px;
+    background: rgba(15, 23, 42, 0.85);
+    color: #f8fafc;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, right 0.3s ease;
+}
+
+.sidebar-collapsed .sidebar-toggle {
+    right: 20px;
 }
 
 .faq-title {
@@ -290,6 +308,15 @@ input:focus, select:focus {
     max-height: 200px;
 }
 
+
+.sidebar-collapsed .faq-section {
+    width: 0;
+    flex: 0 0 0;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
 /* Responsive: apilar en pantallas pequeñas */
 @media (max-width: 900px) {
     .layout {
@@ -309,5 +336,12 @@ input:focus, select:focus {
         flex: none;
         height: auto;
         overflow: visible;
+    }
+    .sidebar-toggle {
+        right: 12px;
+        top: 12px;
+    }
+    .sidebar-collapsed .sidebar-toggle {
+        right: 12px;
     }
 }

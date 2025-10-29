@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <button type="button" id="sidebarToggle" class="sidebar-toggle">Ocultar FAQ</button>
   <div class="layout">
     <div class="graph-pane">
       <!-- Hero / gráfico grande -->
@@ -19,34 +20,34 @@
       <h2 class="faq-title">Preguntas y respuestas</h2>
       <div class="faq-items">
         <div class="faq-item">
-          <button type="button" class="faq-question">¿Cuál es el objetivo del grafo?</button>
+          <button type="button" class="faq-question">¿Qué grupos o comunidades de profesores se forman en el grafo?</button>
           <div class="faq-answer">
-            <p>El grafo busca visualizar las colaboraciones académicas entre los profesores de UTEC.</p>
+            <p>Los profesores que mejor colaborarían según sus áreas de interés.</p>
           </div>
         </div>
         <div class="faq-item">
-          <button type="button" class="faq-question">¿Cómo se interpreta el tamaño de cada nodo?</button>
+          <button type="button" class="faq-question">¿Qué profesores tienen areas de interés contrarias?</button>
           <div class="faq-answer">
-            <p>El tamaño del nodo refleja el número de citas del profesor y se ajusta automáticamente al filtrar.</p>
+            <p>Los profesores de CS y los profesores de Bioingenieria e Ingenieria Química.</p>
           </div>
         </div>
         <div class="faq-item">
-          <button type="button" class="faq-question">¿Qué representa el color del borde?</button>
+          <button type="button" class="faq-question">¿Qué profesores parecen actuar como puentes entre distintos grupos?</button>
           <div class="faq-answer">
-            <p>El color del borde indica el departamento al que pertenece cada profesor dentro de la red.</p>
+            <p>Los profesores con áreas de interés diversas como Jhedmar Jhonatan Callupe Luna</p>
           </div>
         </div>
         <div class="faq-item">
-          <button type="button" class="faq-question">¿Cuál es el objetivo del grafo?</button>
+          <button type="button" class="faq-question">¿Qué profesores no colaborarían con nadie?</button>
           <div class="faq-answer">
-            <p>El grafo busca visualizar las colaboraciones académicas entre los profesores de UTEC.</p>
+            <p>Los profesores que no tienen ninguna arista de predicción(azul).</p>
           </div>
         </div>
       </div>
     </aside>
   </div>
 
-  <script src="{{ url_for('static', filename='js/NetworkGraph_3.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/NetworkGraph_1.js') }}"></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -61,6 +62,12 @@
             item.classList.add('open');
           }
         });
+      });
+      const sidebarToggle = document.getElementById('sidebarToggle');
+      const sidebar = document.querySelector('.faq-section');
+      sidebarToggle.addEventListener('click', () => {
+        const collapsed = document.body.classList.toggle('sidebar-collapsed');
+        sidebarToggle.textContent = collapsed ? 'Mostrar FAQ' : 'Ocultar FAQ';
       });
     });
   </script>

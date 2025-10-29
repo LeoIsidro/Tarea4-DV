@@ -1,0 +1,224 @@
+source_id,target_id,source_name,target_name,relation,key,weight
+3,16,Claudia Antonini Bova,Xyoby Chavez Pacheco,research_area_shared,matematica_aplicada,1.0
+3,17,Claudia Antonini Bova,Fabien Cornillier,research_area_shared,investigacion_de_operaciones,1.0
+3,44,Claudia Antonini Bova,Jose Larco Martinelli,research_area_shared,sistemas_logisticos_alimentarios,1.0
+3,52,Claudia Antonini Bova,Angel Napa Bernuy,research_area_shared,investigacion_de_operaciones,1.0
+3,81,Claudia Antonini Bova,Jorge Tipe Villanueva,research_area_shared,matematica_aplicada,1.0
+6,47,Andrés Julián Arias Moreno,José Luis Mantari Laureano,research_area_shared,biomecanica,1.0
+6,85,Andrés Julián Arias Moreno,Emir Augusto Vela Saavedra,research_area_shared,biomecanica,1.0
+9,74,Jesús Edwin Bellido Angulo,Yamilet Rosario Serrano Llerena,research_area_shared,ingenieria_de_software,1.0
+12,41,Jhedmar Jhonatan Callupe Luna,Elvis Jara Alegria,research_area_shared,inteligencia_artificial,1.0
+12,70,Jhedmar Jhonatan Callupe Luna,Heider Sánchez Enriquez,research_area_shared,inteligencia_artificial,1.0
+12,74,Jhedmar Jhonatan Callupe Luna,Yamilet Rosario Serrano Llerena,research_area_shared,inteligencia_artificial,1.0
+12,76,Jhedmar Jhonatan Callupe Luna,Aurea Rossy Soriano Vargas,research_area_shared,inteligencia_artificial,1.0
+16,81,Xyoby Chavez Pacheco,Jorge Tipe Villanueva,research_area_shared,matematica_aplicada,1.0
+17,52,Fabien Cornillier,Angel Napa Bernuy,research_area_shared,investigacion_de_operaciones | optimizacion_combinatoria,2.0
+23,83,Alberto Donayre Torres,Julio Ernesto Valdivia Silva,research_area_shared,biologia_sintetica,1.0
+30,41,Germain García Zanabria,Elvis Jara Alegria,research_area_shared,aprendizaje_automatico,1.0
+30,50,Germain García Zanabria,Rensso Victor Hugo Mora Colque,research_area_shared,aprendizaje_automatico,1.0
+30,69,Germain García Zanabria,Harry Gustavo Saavedra Espinoza,research_area_shared,aprendizaje_automatico,1.0
+30,74,Germain García Zanabria,Yamilet Rosario Serrano Llerena,research_area_shared,ciencia_de_datos,1.0
+30,76,Germain García Zanabria,Aurea Rossy Soriano Vargas,research_area_shared,aprendizaje_automatico | ciencia_de_datos,2.0
+31,39,Jorge Gonzalez Reaño,Deyby Huamanchahua Canchanya,research_area_shared,nivel_vii,1.0
+41,50,Elvis Jara Alegria,Rensso Victor Hugo Mora Colque,research_area_shared,aprendizaje_automatico,1.0
+41,69,Elvis Jara Alegria,Harry Gustavo Saavedra Espinoza,research_area_shared,aprendizaje_automatico,1.0
+41,70,Elvis Jara Alegria,Heider Sánchez Enriquez,research_area_shared,inteligencia_artificial,1.0
+41,74,Elvis Jara Alegria,Yamilet Rosario Serrano Llerena,research_area_shared,inteligencia_artificial,1.0
+41,76,Elvis Jara Alegria,Aurea Rossy Soriano Vargas,research_area_shared,aprendizaje_automatico | inteligencia_artificial,2.0
+47,85,José Luis Mantari Laureano,Emir Augusto Vela Saavedra,research_area_shared,biomecanica,1.0
+50,69,Rensso Victor Hugo Mora Colque,Harry Gustavo Saavedra Espinoza,research_area_shared,aprendizaje_automatico,1.0
+50,76,Rensso Victor Hugo Mora Colque,Aurea Rossy Soriano Vargas,research_area_shared,aprendizaje_automatico,1.0
+52,65,Angel Napa Bernuy,Jose Renom Andara,research_area_shared,teoria_de_grafos,1.0
+69,76,Harry Gustavo Saavedra Espinoza,Aurea Rossy Soriano Vargas,research_area_shared,aprendizaje_automatico,1.0
+70,74,Heider Sánchez Enriquez,Yamilet Rosario Serrano Llerena,research_area_shared,inteligencia_artificial,1.0
+70,76,Heider Sánchez Enriquez,Aurea Rossy Soriano Vargas,research_area_shared,inteligencia_artificial,1.0
+74,76,Yamilet Rosario Serrano Llerena,Aurea Rossy Soriano Vargas,research_area_shared,ciencia_de_datos | inteligencia_artificial,2.0
+86,87,Rafael Vera Pomalaza,Eunice Villicaña Ortiz,research_area_shared,energias_renovables,1.0
+39,31,Deyby Huamanchahua Canchanya,Jorge Gonzalez Reaño,research_area_predicted,w2v_sif_cosine,1.0
+87,86,Eunice Villicaña Ortiz,Rafael Vera Pomalaza,research_area_predicted,w2v_sif_cosine,0.9875
+50,69,Rensso Victor Hugo Mora Colque,Harry Gustavo Saavedra Espinoza,research_area_predicted,w2v_sif_cosine,0.9814
+12,70,Jhedmar Jhonatan Callupe Luna,Heider Sánchez Enriquez,research_area_predicted,w2v_sif_cosine,0.9797
+17,52,Fabien Cornillier,Angel Napa Bernuy,research_area_predicted,w2v_sif_cosine,0.9619
+76,50,Aurea Rossy Soriano Vargas,Rensso Victor Hugo Mora Colque,research_area_predicted,w2v_sif_cosine,0.9468
+69,76,Harry Gustavo Saavedra Espinoza,Aurea Rossy Soriano Vargas,research_area_predicted,w2v_sif_cosine,0.9443
+76,12,Aurea Rossy Soriano Vargas,Jhedmar Jhonatan Callupe Luna,research_area_predicted,w2v_sif_cosine,0.9315
+12,41,Jhedmar Jhonatan Callupe Luna,Elvis Jara Alegria,research_area_predicted,w2v_sif_cosine,0.9162
+16,81,Xyoby Chavez Pacheco,Jorge Tipe Villanueva,research_area_predicted,w2v_sif_cosine,0.907
+16,3,Xyoby Chavez Pacheco,Claudia Antonini Bova,research_area_predicted,w2v_sif_cosine,0.9035
+76,74,Aurea Rossy Soriano Vargas,Yamilet Rosario Serrano Llerena,research_area_predicted,w2v_sif_cosine,0.8955
+83,23,Julio Ernesto Valdivia Silva,Alberto Donayre Torres,research_area_predicted,w2v_sif_cosine,0.8953
+70,76,Heider Sánchez Enriquez,Aurea Rossy Soriano Vargas,research_area_predicted,w2v_sif_cosine,0.8923
+12,74,Jhedmar Jhonatan Callupe Luna,Yamilet Rosario Serrano Llerena,research_area_predicted,w2v_sif_cosine,0.8905
+70,41,Heider Sánchez Enriquez,Elvis Jara Alegria,research_area_predicted,w2v_sif_cosine,0.8859
+50,30,Rensso Victor Hugo Mora Colque,Germain García Zanabria,research_area_predicted,w2v_sif_cosine,0.8732
+50,12,Rensso Victor Hugo Mora Colque,Jhedmar Jhonatan Callupe Luna,research_area_predicted,w2v_sif_cosine,0.8715
+69,12,Harry Gustavo Saavedra Espinoza,Jhedmar Jhonatan Callupe Luna,research_area_predicted,w2v_sif_cosine,0.8715
+69,30,Harry Gustavo Saavedra Espinoza,Germain García Zanabria,research_area_predicted,w2v_sif_cosine,0.8634
+70,74,Heider Sánchez Enriquez,Yamilet Rosario Serrano Llerena,research_area_predicted,w2v_sif_cosine,0.8587
+30,76,Germain García Zanabria,Aurea Rossy Soriano Vargas,research_area_predicted,w2v_sif_cosine,0.8275
+6,85,Andrés Julián Arias Moreno,Emir Augusto Vela Saavedra,research_area_predicted,w2v_sif_cosine,0.8264
+74,50,Yamilet Rosario Serrano Llerena,Rensso Victor Hugo Mora Colque,research_area_predicted,w2v_sif_cosine,0.8071
+41,69,Elvis Jara Alegria,Harry Gustavo Saavedra Espinoza,research_area_predicted,w2v_sif_cosine,0.794
+41,50,Elvis Jara Alegria,Rensso Victor Hugo Mora Colque,research_area_predicted,w2v_sif_cosine,0.7928
+52,65,Angel Napa Bernuy,Jose Renom Andara,research_area_predicted,w2v_sif_cosine,0.7592
+9,74,Jesús Edwin Bellido Angulo,Yamilet Rosario Serrano Llerena,research_area_predicted,w2v_sif_cosine,0.7385
+3,44,Claudia Antonini Bova,Jose Larco Martinelli,research_area_predicted,w2v_sif_cosine,0.735
+30,74,Germain García Zanabria,Yamilet Rosario Serrano Llerena,research_area_predicted,w2v_sif_cosine,0.7305
+47,6,José Luis Mantari Laureano,Andrés Julián Arias Moreno,research_area_predicted,w2v_sif_cosine,0.7283
+85,47,Emir Augusto Vela Saavedra,José Luis Mantari Laureano,research_area_predicted,w2v_sif_cosine,0.6566
+3,52,Claudia Antonini Bova,Angel Napa Bernuy,research_area_predicted,w2v_sif_cosine,0.6553
+3,81,Claudia Antonini Bova,Jorge Tipe Villanueva,research_area_predicted,w2v_sif_cosine,0.6466
+16,44,Xyoby Chavez Pacheco,Jose Larco Martinelli,research_area_predicted,w2v_sif_cosine,0.6417
+17,3,Fabien Cornillier,Claudia Antonini Bova,research_area_predicted,w2v_sif_cosine,0.6316
+65,17,Jose Renom Andara,Fabien Cornillier,research_area_predicted,w2v_sif_cosine,0.5893
+62,84,José Ramos Saravia,Elba Rosaura Vazques Arrieta,research_area_predicted,w2v_sif_cosine,0.4705
+9,12,Jesús Edwin Bellido Angulo,Jhedmar Jhonatan Callupe Luna,research_area_predicted,w2v_sif_cosine,0.461
+48,46,Giancarlo Marcone Flores,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.4554
+52,16,Angel Napa Bernuy,Xyoby Chavez Pacheco,research_area_predicted,w2v_sif_cosine,0.4508
+44,81,Jose Larco Martinelli,Jorge Tipe Villanueva,research_area_predicted,w2v_sif_cosine,0.4461
+62,4,José Ramos Saravia,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.4453
+9,70,Jesús Edwin Bellido Angulo,Heider Sánchez Enriquez,research_area_predicted,w2v_sif_cosine,0.4382
+17,16,Fabien Cornillier,Xyoby Chavez Pacheco,research_area_predicted,w2v_sif_cosine,0.432
+48,4,Giancarlo Marcone Flores,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.4306
+19,48,Jose De La Puente Maldonado,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.4164
+9,76,Jesús Edwin Bellido Angulo,Aurea Rossy Soriano Vargas,research_area_predicted,w2v_sif_cosine,0.3881
+62,48,José Ramos Saravia,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.3863
+84,48,Elba Rosaura Vazques Arrieta,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.382
+62,46,José Ramos Saravia,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.348
+46,19,Milagros Lunga Calderón,Jose De La Puente Maldonado,research_area_predicted,w2v_sif_cosine,0.346
+18,48,Antuané De La Flor Basterrechea,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.3452
+19,4,Jose De La Puente Maldonado,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.3262
+46,4,Milagros Lunga Calderón,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.3242
+65,3,Jose Renom Andara,Claudia Antonini Bova,research_area_predicted,w2v_sif_cosine,0.3213
+18,5,Antuané De La Flor Basterrechea,Patricia Araujo Pantoja,research_area_predicted,w2v_sif_cosine,0.3169
+44,52,Jose Larco Martinelli,Angel Napa Bernuy,research_area_predicted,w2v_sif_cosine,0.3167
+42,4,Enrique Juarez Aquino,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.3159
+18,46,Antuané De La Flor Basterrechea,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.3123
+42,62,Enrique Juarez Aquino,José Ramos Saravia,research_area_predicted,w2v_sif_cosine,0.3048
+71,18,Nedher Sanchez Ramirez,Antuané De La Flor Basterrechea,research_area_predicted,w2v_sif_cosine,0.3006
+42,48,Enrique Juarez Aquino,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.2999
+71,4,Nedher Sanchez Ramirez,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.2788
+84,69,Elba Rosaura Vazques Arrieta,Harry Gustavo Saavedra Espinoza,research_area_predicted,w2v_sif_cosine,0.2673
+84,50,Elba Rosaura Vazques Arrieta,Rensso Victor Hugo Mora Colque,research_area_predicted,w2v_sif_cosine,0.2669
+71,62,Nedher Sanchez Ramirez,José Ramos Saravia,research_area_predicted,w2v_sif_cosine,0.2613
+42,46,Enrique Juarez Aquino,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.2582
+19,77,Jose De La Puente Maldonado,Enrique Stiglich Labarthe,research_area_predicted,w2v_sif_cosine,0.2516
+71,50,Nedher Sanchez Ramirez,Rensso Victor Hugo Mora Colque,research_area_predicted,w2v_sif_cosine,0.2487
+91,42,Carlos Zorrilla Aranguren,Enrique Juarez Aquino,research_area_predicted,w2v_sif_cosine,0.2367
+91,62,Carlos Zorrilla Aranguren,José Ramos Saravia,research_area_predicted,w2v_sif_cosine,0.2229
+90,18,Katia Zegarra Sierra,Antuané De La Flor Basterrechea,research_area_predicted,w2v_sif_cosine,0.2202
+81,52,Jorge Tipe Villanueva,Angel Napa Bernuy,research_area_predicted,w2v_sif_cosine,0.2193
+53,84,Julien Noel,Elba Rosaura Vazques Arrieta,research_area_predicted,w2v_sif_cosine,0.2179
+5,46,Patricia Araujo Pantoja,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.2158
+14,4,Paul Cardenas Lizana,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.2143
+20,22,José Andrés De Leo Martínez,Manuel Arturo Deza Figueroa,research_area_predicted,w2v_sif_cosine,0.2084
+47,19,José Luis Mantari Laureano,Jose De La Puente Maldonado,research_area_predicted,w2v_sif_cosine,0.2065
+77,46,Enrique Stiglich Labarthe,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.203
+90,71,Katia Zegarra Sierra,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.2023
+27,42,Christian Flores Vega,Enrique Juarez Aquino,research_area_predicted,w2v_sif_cosine,0.2013
+14,42,Paul Cardenas Lizana,Enrique Juarez Aquino,research_area_predicted,w2v_sif_cosine,0.1961
+14,19,Paul Cardenas Lizana,Jose De La Puente Maldonado,research_area_predicted,w2v_sif_cosine,0.1926
+79,27,Francisco Tarazona Vásquez,Christian Flores Vega,research_area_predicted,w2v_sif_cosine,0.1921
+7,42,Luis Bedriñana Mera,Enrique Juarez Aquino,research_area_predicted,w2v_sif_cosine,0.1917
+87,36,Eunice Villicaña Ortiz,Oscar Hidalgo Wuest,research_area_predicted,w2v_sif_cosine,0.185
+86,36,Rafael Vera Pomalaza,Oscar Hidalgo Wuest,research_area_predicted,w2v_sif_cosine,0.1848
+54,49,Moises Nuñez Ochoa,Diego Alejandro Milanés Carreño,research_area_predicted,w2v_sif_cosine,0.1841
+78,2,Matteo Stiglich Labarthe,Helard Alvarez Sanchez,research_area_predicted,w2v_sif_cosine,0.1816
+36,90,Oscar Hidalgo Wuest,Katia Zegarra Sierra,research_area_predicted,w2v_sif_cosine,0.1815
+15,10,Samuel Charca Mamani,Carlos Alberto Benedetty Torres,research_area_predicted,w2v_sif_cosine,0.1807
+13,61,Ruth Canahuire Cabello,Oscar Ramos Ponce,research_area_predicted,w2v_sif_cosine,0.1796
+65,16,Jose Renom Andara,Xyoby Chavez Pacheco,research_area_predicted,w2v_sif_cosine,0.1758
+5,71,Patricia Araujo Pantoja,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.1751
+54,28,Moises Nuñez Ochoa,José Tomás Gálvez Ghersi,research_area_predicted,w2v_sif_cosine,0.1742
+1,84,Grace Alexandrino Ocaña,Elba Rosaura Vazques Arrieta,research_area_predicted,w2v_sif_cosine,0.1713
+86,13,Rafael Vera Pomalaza,Ruth Canahuire Cabello,research_area_predicted,w2v_sif_cosine,0.1711
+27,71,Christian Flores Vega,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.1687
+61,62,Oscar Ramos Ponce,José Ramos Saravia,research_area_predicted,w2v_sif_cosine,0.1647
+22,4,Manuel Arturo Deza Figueroa,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.162
+27,48,Christian Flores Vega,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.1616
+89,90,Romina Perla Yalonetzky Mankevich,Katia Zegarra Sierra,research_area_predicted,w2v_sif_cosine,0.1614
+15,44,Samuel Charca Mamani,Jose Larco Martinelli,research_area_predicted,w2v_sif_cosine,0.1609
+54,78,Moises Nuñez Ochoa,Matteo Stiglich Labarthe,research_area_predicted,w2v_sif_cosine,0.1591
+91,45,Carlos Zorrilla Aranguren,Cristian Lopez Del Alamo,research_area_predicted,w2v_sif_cosine,0.1591
+2,77,Helard Alvarez Sanchez,Enrique Stiglich Labarthe,research_area_predicted,w2v_sif_cosine,0.1579
+61,18,Oscar Ramos Ponce,Antuané De La Flor Basterrechea,research_area_predicted,w2v_sif_cosine,0.1578
+80,9,Jimmy Tarrillo Olano,Jesús Edwin Bellido Angulo,research_area_predicted,w2v_sif_cosine,0.1576
+78,84,Matteo Stiglich Labarthe,Elba Rosaura Vazques Arrieta,research_area_predicted,w2v_sif_cosine,0.1571
+1,62,Grace Alexandrino Ocaña,José Ramos Saravia,research_area_predicted,w2v_sif_cosine,0.1562
+72,20,Monica C. Santa-Maria,José Andrés De Leo Martínez,research_area_predicted,w2v_sif_cosine,0.1559
+20,71,José Andrés De Leo Martínez,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.1558
+77,18,Enrique Stiglich Labarthe,Antuané De La Flor Basterrechea,research_area_predicted,w2v_sif_cosine,0.1557
+55,18,Maria Belén Ortiz García,Antuané De La Flor Basterrechea,research_area_predicted,w2v_sif_cosine,0.155
+91,46,Carlos Zorrilla Aranguren,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.154
+28,55,José Tomás Gálvez Ghersi,Maria Belén Ortiz García,research_area_predicted,w2v_sif_cosine,0.153
+7,4,Luis Bedriñana Mera,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.1514
+31,36,Jorge Gonzalez Reaño,Oscar Hidalgo Wuest,research_area_predicted,w2v_sif_cosine,0.1512
+36,39,Oscar Hidalgo Wuest,Deyby Huamanchahua Canchanya,research_area_predicted,w2v_sif_cosine,0.1512
+7,46,Luis Bedriñana Mera,Milagros Lunga Calderón,research_area_predicted,w2v_sif_cosine,0.151
+79,71,Francisco Tarazona Vásquez,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.1504
+67,25,Juan Carlos Rodríguez Reyes,Elena Flores Barreda,research_area_predicted,w2v_sif_cosine,0.1502
+78,48,Matteo Stiglich Labarthe,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.149
+28,78,José Tomás Gálvez Ghersi,Matteo Stiglich Labarthe,research_area_predicted,w2v_sif_cosine,0.1468
+63,19,Alejandra Ratti Parandelli,Jose De La Puente Maldonado,research_area_predicted,w2v_sif_cosine,0.1464
+54,43,Moises Nuñez Ochoa,Wangdo Kim,research_area_predicted,w2v_sif_cosine,0.1457
+79,19,Francisco Tarazona Vásquez,Jose De La Puente Maldonado,research_area_predicted,w2v_sif_cosine,0.1457
+55,19,Maria Belén Ortiz García,Jose De La Puente Maldonado,research_area_predicted,w2v_sif_cosine,0.1453
+20,4,José Andrés De Leo Martínez,Sergio Aranda Egusquiza,research_area_predicted,w2v_sif_cosine,0.1452
+55,70,Maria Belén Ortiz García,Heider Sánchez Enriquez,research_area_predicted,w2v_sif_cosine,0.1446
+87,13,Eunice Villicaña Ortiz,Ruth Canahuire Cabello,research_area_predicted,w2v_sif_cosine,0.1442
+61,78,Oscar Ramos Ponce,Matteo Stiglich Labarthe,research_area_predicted,w2v_sif_cosine,0.144
+22,84,Manuel Arturo Deza Figueroa,Elba Rosaura Vazques Arrieta,research_area_predicted,w2v_sif_cosine,0.1439
+2,9,Helard Alvarez Sanchez,Jesús Edwin Bellido Angulo,research_area_predicted,w2v_sif_cosine,0.1438
+72,79,Monica C. Santa-Maria,Francisco Tarazona Vásquez,research_area_predicted,w2v_sif_cosine,0.1421
+13,62,Ruth Canahuire Cabello,José Ramos Saravia,research_area_predicted,w2v_sif_cosine,0.1418
+37,27,Daniel Vicente Horna Muñoz,Christian Flores Vega,research_area_predicted,w2v_sif_cosine,0.141
+28,70,José Tomás Gálvez Ghersi,Heider Sánchez Enriquez,research_area_predicted,w2v_sif_cosine,0.1409
+1,27,Grace Alexandrino Ocaña,Christian Flores Vega,research_area_predicted,w2v_sif_cosine,0.1394
+85,49,Emir Augusto Vela Saavedra,Diego Alejandro Milanés Carreño,research_area_predicted,w2v_sif_cosine,0.1389
+49,22,Diego Alejandro Milanés Carreño,Manuel Arturo Deza Figueroa,research_area_predicted,w2v_sif_cosine,0.1388
+8,33,Omar Bejarano Grández,Juan Gabriel Gutierrez Alva,research_area_predicted,w2v_sif_cosine,0.1382
+37,66,Daniel Vicente Horna Muñoz,Alejandro Rios Cuadros,research_area_predicted,w2v_sif_cosine,0.138
+1,22,Grace Alexandrino Ocaña,Manuel Arturo Deza Figueroa,research_area_predicted,w2v_sif_cosine,0.1372
+86,18,Rafael Vera Pomalaza,Antuané De La Flor Basterrechea,research_area_predicted,w2v_sif_cosine,0.135
+67,33,Juan Carlos Rodríguez Reyes,Juan Gabriel Gutierrez Alva,research_area_predicted,w2v_sif_cosine,0.135
+87,7,Eunice Villicaña Ortiz,Luis Bedriñana Mera,research_area_predicted,w2v_sif_cosine,0.1347
+14,55,Paul Cardenas Lizana,Maria Belén Ortiz García,research_area_predicted,w2v_sif_cosine,0.1334
+53,48,Julien Noel,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.1302
+88,28,Akira Armando Wong Sato,José Tomás Gálvez Ghersi,research_area_predicted,w2v_sif_cosine,0.1295
+8,70,Omar Bejarano Grández,Heider Sánchez Enriquez,research_area_predicted,w2v_sif_cosine,0.1288
+33,71,Juan Gabriel Gutierrez Alva,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.128
+33,9,Juan Gabriel Gutierrez Alva,Jesús Edwin Bellido Angulo,research_area_predicted,w2v_sif_cosine,0.1275
+80,74,Jimmy Tarrillo Olano,Yamilet Rosario Serrano Llerena,research_area_predicted,w2v_sif_cosine,0.127
+11,62,Juan Bueno Villanueva,José Ramos Saravia,research_area_predicted,w2v_sif_cosine,0.1266
+56,68,Hermes Pantoja Carhuavilca,Ursula Rodriguez Zuñiga,research_area_predicted,w2v_sif_cosine,0.1262
+89,22,Romina Perla Yalonetzky Mankevich,Manuel Arturo Deza Figueroa,research_area_predicted,w2v_sif_cosine,0.1262
+75,65,Igor Siveroni Salinas,Jose Renom Andara,research_area_predicted,w2v_sif_cosine,0.126
+56,83,Hermes Pantoja Carhuavilca,Julio Ernesto Valdivia Silva,research_area_predicted,w2v_sif_cosine,0.1249
+24,1,Jose Fiestas Iquira,Grace Alexandrino Ocaña,research_area_predicted,w2v_sif_cosine,0.123
+8,65,Omar Bejarano Grández,Jose Renom Andara,research_area_predicted,w2v_sif_cosine,0.1225
+53,79,Julien Noel,Francisco Tarazona Vásquez,research_area_predicted,w2v_sif_cosine,0.1222
+5,48,Patricia Araujo Pantoja,Giancarlo Marcone Flores,research_area_predicted,w2v_sif_cosine,0.1213
+31,40,Jorge Gonzalez Reaño,Dante Inga Narvaez,research_area_predicted,w2v_sif_cosine,0.121
+39,40,Deyby Huamanchahua Canchanya,Dante Inga Narvaez,research_area_predicted,w2v_sif_cosine,0.121
+45,7,Cristian Lopez Del Alamo,Luis Bedriñana Mera,research_area_predicted,w2v_sif_cosine,0.121
+56,1,Hermes Pantoja Carhuavilca,Grace Alexandrino Ocaña,research_area_predicted,w2v_sif_cosine,0.1206
+49,28,Diego Alejandro Milanés Carreño,José Tomás Gálvez Ghersi,research_area_predicted,w2v_sif_cosine,0.1202
+68,41,Ursula Rodriguez Zuñiga,Elvis Jara Alegria,research_area_predicted,w2v_sif_cosine,0.1189
+2,5,Helard Alvarez Sanchez,Patricia Araujo Pantoja,research_area_predicted,w2v_sif_cosine,0.1185
+75,54,Igor Siveroni Salinas,Moises Nuñez Ochoa,research_area_predicted,w2v_sif_cosine,0.1174
+6,77,Andrés Julián Arias Moreno,Enrique Stiglich Labarthe,research_area_predicted,w2v_sif_cosine,0.1169
+15,11,Samuel Charca Mamani,Juan Bueno Villanueva,research_area_predicted,w2v_sif_cosine,0.1166
+89,14,Romina Perla Yalonetzky Mankevich,Paul Cardenas Lizana,research_area_predicted,w2v_sif_cosine,0.116
+11,71,Juan Bueno Villanueva,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.1159
+63,42,Alejandra Ratti Parandelli,Enrique Juarez Aquino,research_area_predicted,w2v_sif_cosine,0.1155
+57,90,Carolina Parada Quinaya,Katia Zegarra Sierra,research_area_predicted,w2v_sif_cosine,0.1154
+6,87,Andrés Julián Arias Moreno,Eunice Villicaña Ortiz,research_area_predicted,w2v_sif_cosine,0.114
+80,49,Jimmy Tarrillo Olano,Diego Alejandro Milanés Carreño,research_area_predicted,w2v_sif_cosine,0.113
+8,71,Omar Bejarano Grández,Nedher Sanchez Ramirez,research_area_predicted,w2v_sif_cosine,0.1126
+83,55,Julio Ernesto Valdivia Silva,Maria Belén Ortiz García,research_area_predicted,w2v_sif_cosine,0.1122
+75,36,Igor Siveroni Salinas,Oscar Hidalgo Wuest,research_area_predicted,w2v_sif_cosine,0.1115
+68,12,Ursula Rodriguez Zuñiga,Jhedmar Jhonatan Callupe Luna,research_area_predicted,w2v_sif_cosine,0.1104
+11,1,Juan Bueno Villanueva,Grace Alexandrino Ocaña,research_area_predicted,w2v_sif_cosine,0.1093
+45,23,Cristian Lopez Del Alamo,Alberto Donayre Torres,research_area_predicted,w2v_sif_cosine,0.1077
+82,30,David Wilfredo Torres Escobar,Germain García Zanabria,research_area_predicted,w2v_sif_cosine,0.1065
+80,77,Jimmy Tarrillo Olano,Enrique Stiglich Labarthe,research_area_predicted,w2v_sif_cosine,0.1063

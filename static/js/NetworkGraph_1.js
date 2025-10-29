@@ -70,12 +70,18 @@ function createNetworkGraph(containerId) {
   // Crear definiciones para patrones y filtros
   const defs = svg.append('defs');
   
+  const weightedLinkColor = '#2563eb';
+  const departmentLinkColor = '#94a3b8';
   // Configuración de la simulación de fuerzas (parámetros fijos para mantener estabilidad)
+  const collisionForce = d3.forceCollide()
+  .radius(d => d.radius + 4)
+  .iterations(2);
+
   const simulation = d3.forceSimulation()
     .force('link', d3.forceLink().id(d => d.id).distance(d => 150 - (d.weight * 100)))
     .force('charge', d3.forceManyBody().strength(-300))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(35))
+    .force('collision', collisionForce)
     .alphaDecay(0.02); // Hacer que la simulación se estabilice más rápido
 
   // Escalas para el tamaño y color de los nodos
@@ -91,12 +97,14 @@ function createNetworkGraph(containerId) {
   // Cargar datos de forma paralela
   Promise.all([
     fetch('/api/faculty_nodes').then(r => r.json()),
-    fetch('/api/faculty_edges').then(r => r.json())
-  ]).then(([nodesData, edgesData]) => {
+    fetch('/api/faculty_edges').then(r => r.json()),
+    fetch('/api/faculty_department_edges').then(r => r.json())
+  ]).then(([nodesData, edgesData, edgesDepartment]) => {
     
     console.log('Nodes loaded:', nodesData.length);
     console.log('Edges loaded:', edgesData.length);
-    
+    console.log('Department Edges loaded:', edgesDepartment.length);
+
     // Obtener departamentos únicos y configurar escala de colores
     const departments = [...new Set(nodesData.map(d => d.department))];
     departmentColorScale.domain(departments);
@@ -121,9 +129,9 @@ function createNetworkGraph(containerId) {
         y: height / 2 + (Math.random() - 0.5) * 100
       };
     });
+    const nodesById = new Map(nodes.map(node => [node.id, node]));
     
     const minWeight = 0.65;
-    // Procesar enlaces con filtrado inteligente
     const links = edgesData
       .filter(d => d.weight >= minWeight)
       .map(d => ({
@@ -135,8 +143,18 @@ function createNetworkGraph(containerId) {
     console.log('Filtered links:', links.length);
     
     // Actualizar escalas con los datos reales
-    nodeScale.domain(d3.extent(nodes, d => d.citations));
-    linkScale.domain(d3.extent(links, d => d.weight));
+    const linkExtent = d3.extent(links, d => d.weight);
+    if (linkExtent[0] != null) {
+      linkScale.domain(linkExtent);
+    }
+    
+    const departmentLinks = edgesDepartment
+      .map(d => {
+        const source = nodesById.get(d.source_id);
+        const target = nodesById.get(d.target_id);
+        return (source && target) ? { ...d, source, target } : null;
+      })
+      .filter(Boolean);
     
     // Crear patrones de imagen para cada profesor
     nodes.forEach(node => {
@@ -170,12 +188,21 @@ function createNetworkGraph(containerId) {
     });
     
     // Crear enlaces
+    const departmentLink = g.append('g')
+      .attr('class', 'department-links')
+      .selectAll('line')
+      .data(departmentLinks)
+      .enter().append('line')
+      .attr('stroke', departmentLinkColor)
+      .attr('stroke-opacity', 0.25)
+      .attr('stroke-width', 1.5);
+    
     const link = g.append('g')
       .attr('class', 'links')
       .selectAll('line')
       .data(links)
       .enter().append('line')
-      .attr('stroke', '#999')
+      .attr('stroke', weightedLinkColor)
       .attr('stroke-opacity', 0.6)
       .attr('stroke-width', d => linkScale(d.weight));
     
@@ -242,8 +269,11 @@ function createNetworkGraph(containerId) {
           
         // Resaltar enlaces conectados
         link
-          .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#ff6b6b' : '#999')
+          .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#ff6b6b' : weightedLinkColor)
           .attr('stroke-opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 1 : 0.3);
+        departmentLink
+          .attr('stroke', l => (l.source.id === d.id || l.target.id === d.id) ? '#f97316' : departmentLinkColor)
+          .attr('stroke-opacity', l => (l.source.id === d.id || l.target.id === d.id) ? 0.9 : 0.15);
       })
       .on('mousemove', function(event) {
         tooltip
@@ -260,8 +290,11 @@ function createNetworkGraph(containerId) {
           
         // Restaurar enlaces
         link
-          .attr('stroke', '#999')
+          .attr('stroke', weightedLinkColor)
           .attr('stroke-opacity', 0.6);
+        departmentLink
+          .attr('stroke', departmentLinkColor)
+          .attr('stroke-opacity', 0.25);
       });
     
     // Controles de filtro por departamento
@@ -298,10 +331,12 @@ function createNetworkGraph(containerId) {
         node.style('display', null);
         labels.style('display', null);
         link.style('display', null);
+        departmentLink.style('display', null);
       } else {
         node.style('display', d => allowedIds.has(d.id) ? null : 'none');
         labels.style('display', d => allowedIds.has(d.id) ? null : 'none');
         link.style('display', d => (allowedIds.has(d.source.id) && allowedIds.has(d.target.id)) ? null : 'none');
+        departmentLink.style('display', d => (allowedIds.has(d.source.id) && allowedIds.has(d.target.id)) ? null : 'none');
       }
       
       if (allowedNodes.length) {
@@ -334,6 +369,11 @@ function createNetworkGraph(containerId) {
       .links(links);
     
     function ticked() {
+      departmentLink
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
       link
         .attr('x1', d => d.source.x)
         .attr('y1', d => d.source.y)
@@ -389,11 +429,11 @@ function createNetworkGraph(containerId) {
     // Leyenda de información general
     const legend = svg.append('g')
       .attr('class', 'legend')
-      .attr('transform', `translate(20, ${height - 120})`);
+      .attr('transform', `translate(20, ${height - 140})`);
       
     legend.append('rect')
-      .attr('width', 180)
-      .attr('height', 100)
+      .attr('width', 210)
+      .attr('height', 120)
       .attr('fill', 'rgba(255, 255, 255, 0.9)')
       .attr('stroke', '#333')
       .attr('rx', 5);
@@ -415,31 +455,37 @@ function createNetworkGraph(containerId) {
       .attr('x', 10)
       .attr('y', 55)
       .style('font-size', '12px')
-      .text('• Grosor línea = Similitud');
+      .text('• Línea azul = Similitud (con peso)');
       
     legend.append('text')
       .attr('x', 10)
       .attr('y', 70)
       .style('font-size', '12px')
-      .text('• Color borde = Departamento');
+      .text('• Línea gris = Mismo departamento');
       
     legend.append('text')
       .attr('x', 10)
       .attr('y', 85)
+      .style('font-size', '12px')
+      .text('• Borde del nodo = Departamento');
+      
+    legend.append('text')
+      .attr('x', 10)
+      .attr('y', 100)
       .style('font-size', '12px')
       .text('• Hover para más información');
     
     // Leyenda de departamentos
     const departmentLegend = svg.append('g')
       .attr('class', 'department-legend')
-      .attr('transform', `translate(${width - 320}, 60)`);
+      .attr('transform', `translate(20, 130)`);
     
     // Calcular altura necesaria para la leyenda de departamentos
     const maxDepartmentsToShow = Math.min(departments.length, 12); // Limitar para no ocupar toda la pantalla
     const legendHeight = maxDepartmentsToShow * 20 + 40;
     
     departmentLegend.append('rect')
-      .attr('width', 300)
+      .attr('width', 230)
       .attr('height', legendHeight)
       .attr('fill', 'rgba(255, 255, 255, 0.95)')
       .attr('stroke', '#333')

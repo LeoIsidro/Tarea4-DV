@@ -1,0 +1,386 @@
+source_id,target_id,department
+0,35,Departamento de Negocios Digitales
+0,46,Departamento de Negocios Digitales
+35,46,Departamento de Negocios Digitales
+1,18,"Departamento de Humanidades, Artes y Ciencias Sociales"
+1,20,"Departamento de Humanidades, Artes y Ciencias Sociales"
+1,36,"Departamento de Humanidades, Artes y Ciencias Sociales"
+1,48,"Departamento de Humanidades, Artes y Ciencias Sociales"
+1,78,"Departamento de Humanidades, Artes y Ciencias Sociales"
+1,89,"Departamento de Humanidades, Artes y Ciencias Sociales"
+1,91,"Departamento de Humanidades, Artes y Ciencias Sociales"
+18,20,"Departamento de Humanidades, Artes y Ciencias Sociales"
+18,36,"Departamento de Humanidades, Artes y Ciencias Sociales"
+18,48,"Departamento de Humanidades, Artes y Ciencias Sociales"
+18,78,"Departamento de Humanidades, Artes y Ciencias Sociales"
+18,89,"Departamento de Humanidades, Artes y Ciencias Sociales"
+18,91,"Departamento de Humanidades, Artes y Ciencias Sociales"
+20,36,"Departamento de Humanidades, Artes y Ciencias Sociales"
+20,48,"Departamento de Humanidades, Artes y Ciencias Sociales"
+20,78,"Departamento de Humanidades, Artes y Ciencias Sociales"
+20,89,"Departamento de Humanidades, Artes y Ciencias Sociales"
+20,91,"Departamento de Humanidades, Artes y Ciencias Sociales"
+36,48,"Departamento de Humanidades, Artes y Ciencias Sociales"
+36,78,"Departamento de Humanidades, Artes y Ciencias Sociales"
+36,89,"Departamento de Humanidades, Artes y Ciencias Sociales"
+36,91,"Departamento de Humanidades, Artes y Ciencias Sociales"
+48,78,"Departamento de Humanidades, Artes y Ciencias Sociales"
+48,89,"Departamento de Humanidades, Artes y Ciencias Sociales"
+48,91,"Departamento de Humanidades, Artes y Ciencias Sociales"
+78,89,"Departamento de Humanidades, Artes y Ciencias Sociales"
+78,91,"Departamento de Humanidades, Artes y Ciencias Sociales"
+89,91,"Departamento de Humanidades, Artes y Ciencias Sociales"
+2,5,Departamento de Ingeniería Mecánica y de la Energía
+2,8,Departamento de Ingeniería Mecánica y de la Energía
+2,15,Departamento de Ingeniería Mecánica y de la Energía
+2,43,Departamento de Ingeniería Mecánica y de la Energía
+2,53,Departamento de Ingeniería Mecánica y de la Energía
+2,60,Departamento de Ingeniería Mecánica y de la Energía
+2,62,Departamento de Ingeniería Mecánica y de la Energía
+2,85,Departamento de Ingeniería Mecánica y de la Energía
+2,86,Departamento de Ingeniería Mecánica y de la Energía
+2,87,Departamento de Ingeniería Mecánica y de la Energía
+5,8,Departamento de Ingeniería Mecánica y de la Energía
+5,15,Departamento de Ingeniería Mecánica y de la Energía
+5,43,Departamento de Ingeniería Mecánica y de la Energía
+5,53,Departamento de Ingeniería Mecánica y de la Energía
+5,60,Departamento de Ingeniería Mecánica y de la Energía
+5,62,Departamento de Ingeniería Mecánica y de la Energía
+5,85,Departamento de Ingeniería Mecánica y de la Energía
+5,86,Departamento de Ingeniería Mecánica y de la Energía
+5,87,Departamento de Ingeniería Mecánica y de la Energía
+8,15,Departamento de Ingeniería Mecánica y de la Energía
+8,43,Departamento de Ingeniería Mecánica y de la Energía
+8,53,Departamento de Ingeniería Mecánica y de la Energía
+8,60,Departamento de Ingeniería Mecánica y de la Energía
+8,62,Departamento de Ingeniería Mecánica y de la Energía
+8,85,Departamento de Ingeniería Mecánica y de la Energía
+8,86,Departamento de Ingeniería Mecánica y de la Energía
+8,87,Departamento de Ingeniería Mecánica y de la Energía
+15,43,Departamento de Ingeniería Mecánica y de la Energía
+15,53,Departamento de Ingeniería Mecánica y de la Energía
+15,60,Departamento de Ingeniería Mecánica y de la Energía
+15,62,Departamento de Ingeniería Mecánica y de la Energía
+15,85,Departamento de Ingeniería Mecánica y de la Energía
+15,86,Departamento de Ingeniería Mecánica y de la Energía
+15,87,Departamento de Ingeniería Mecánica y de la Energía
+43,53,Departamento de Ingeniería Mecánica y de la Energía
+43,60,Departamento de Ingeniería Mecánica y de la Energía
+43,62,Departamento de Ingeniería Mecánica y de la Energía
+43,85,Departamento de Ingeniería Mecánica y de la Energía
+43,86,Departamento de Ingeniería Mecánica y de la Energía
+43,87,Departamento de Ingeniería Mecánica y de la Energía
+53,60,Departamento de Ingeniería Mecánica y de la Energía
+53,62,Departamento de Ingeniería Mecánica y de la Energía
+53,85,Departamento de Ingeniería Mecánica y de la Energía
+53,86,Departamento de Ingeniería Mecánica y de la Energía
+53,87,Departamento de Ingeniería Mecánica y de la Energía
+60,62,Departamento de Ingeniería Mecánica y de la Energía
+60,85,Departamento de Ingeniería Mecánica y de la Energía
+60,86,Departamento de Ingeniería Mecánica y de la Energía
+60,87,Departamento de Ingeniería Mecánica y de la Energía
+62,85,Departamento de Ingeniería Mecánica y de la Energía
+62,86,Departamento de Ingeniería Mecánica y de la Energía
+62,87,Departamento de Ingeniería Mecánica y de la Energía
+85,86,Departamento de Ingeniería Mecánica y de la Energía
+85,87,Departamento de Ingeniería Mecánica y de la Energía
+86,87,Departamento de Ingeniería Mecánica y de la Energía
+3,11,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+3,17,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+3,19,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+3,26,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+3,29,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+3,44,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+3,55,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+11,17,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+11,19,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+11,26,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+11,29,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+11,44,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+11,55,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+17,19,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+17,26,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+17,29,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+17,44,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+17,55,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+19,26,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+19,29,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+19,44,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+19,55,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+26,29,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+26,44,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+26,55,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+29,44,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+29,55,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+44,55,Departamento de Ingeniería Industrial y Gestión de la Ingeniería
+4,12,Departamento de Ingeniería Electrónica y Mecatrónica
+4,13,Departamento de Ingeniería Electrónica y Mecatrónica
+4,27,Departamento de Ingeniería Electrónica y Mecatrónica
+4,39,Departamento de Ingeniería Electrónica y Mecatrónica
+4,40,Departamento de Ingeniería Electrónica y Mecatrónica
+4,41,Departamento de Ingeniería Electrónica y Mecatrónica
+4,54,Departamento de Ingeniería Electrónica y Mecatrónica
+4,61,Departamento de Ingeniería Electrónica y Mecatrónica
+4,80,Departamento de Ingeniería Electrónica y Mecatrónica
+12,13,Departamento de Ingeniería Electrónica y Mecatrónica
+12,27,Departamento de Ingeniería Electrónica y Mecatrónica
+12,39,Departamento de Ingeniería Electrónica y Mecatrónica
+12,40,Departamento de Ingeniería Electrónica y Mecatrónica
+12,41,Departamento de Ingeniería Electrónica y Mecatrónica
+12,54,Departamento de Ingeniería Electrónica y Mecatrónica
+12,61,Departamento de Ingeniería Electrónica y Mecatrónica
+12,80,Departamento de Ingeniería Electrónica y Mecatrónica
+13,27,Departamento de Ingeniería Electrónica y Mecatrónica
+13,39,Departamento de Ingeniería Electrónica y Mecatrónica
+13,40,Departamento de Ingeniería Electrónica y Mecatrónica
+13,41,Departamento de Ingeniería Electrónica y Mecatrónica
+13,54,Departamento de Ingeniería Electrónica y Mecatrónica
+13,61,Departamento de Ingeniería Electrónica y Mecatrónica
+13,80,Departamento de Ingeniería Electrónica y Mecatrónica
+27,39,Departamento de Ingeniería Electrónica y Mecatrónica
+27,40,Departamento de Ingeniería Electrónica y Mecatrónica
+27,41,Departamento de Ingeniería Electrónica y Mecatrónica
+27,54,Departamento de Ingeniería Electrónica y Mecatrónica
+27,61,Departamento de Ingeniería Electrónica y Mecatrónica
+27,80,Departamento de Ingeniería Electrónica y Mecatrónica
+39,40,Departamento de Ingeniería Electrónica y Mecatrónica
+39,41,Departamento de Ingeniería Electrónica y Mecatrónica
+39,54,Departamento de Ingeniería Electrónica y Mecatrónica
+39,61,Departamento de Ingeniería Electrónica y Mecatrónica
+39,80,Departamento de Ingeniería Electrónica y Mecatrónica
+40,41,Departamento de Ingeniería Electrónica y Mecatrónica
+40,54,Departamento de Ingeniería Electrónica y Mecatrónica
+40,61,Departamento de Ingeniería Electrónica y Mecatrónica
+40,80,Departamento de Ingeniería Electrónica y Mecatrónica
+41,54,Departamento de Ingeniería Electrónica y Mecatrónica
+41,61,Departamento de Ingeniería Electrónica y Mecatrónica
+41,80,Departamento de Ingeniería Electrónica y Mecatrónica
+54,61,Departamento de Ingeniería Electrónica y Mecatrónica
+54,80,Departamento de Ingeniería Electrónica y Mecatrónica
+61,80,Departamento de Ingeniería Electrónica y Mecatrónica
+6,14,Departamento de Bioingeniería e Ingeniería Química
+6,23,Departamento de Bioingeniería e Ingeniería Química
+6,25,Departamento de Bioingeniería e Ingeniería Química
+6,57,Departamento de Bioingeniería e Ingeniería Química
+6,63,Departamento de Bioingeniería e Ingeniería Química
+6,67,Departamento de Bioingeniería e Ingeniería Química
+6,68,Departamento de Bioingeniería e Ingeniería Química
+6,69,Departamento de Bioingeniería e Ingeniería Química
+6,79,Departamento de Bioingeniería e Ingeniería Química
+6,83,Departamento de Bioingeniería e Ingeniería Química
+14,23,Departamento de Bioingeniería e Ingeniería Química
+14,25,Departamento de Bioingeniería e Ingeniería Química
+14,57,Departamento de Bioingeniería e Ingeniería Química
+14,63,Departamento de Bioingeniería e Ingeniería Química
+14,67,Departamento de Bioingeniería e Ingeniería Química
+14,68,Departamento de Bioingeniería e Ingeniería Química
+14,69,Departamento de Bioingeniería e Ingeniería Química
+14,79,Departamento de Bioingeniería e Ingeniería Química
+14,83,Departamento de Bioingeniería e Ingeniería Química
+23,25,Departamento de Bioingeniería e Ingeniería Química
+23,57,Departamento de Bioingeniería e Ingeniería Química
+23,63,Departamento de Bioingeniería e Ingeniería Química
+23,67,Departamento de Bioingeniería e Ingeniería Química
+23,68,Departamento de Bioingeniería e Ingeniería Química
+23,69,Departamento de Bioingeniería e Ingeniería Química
+23,79,Departamento de Bioingeniería e Ingeniería Química
+23,83,Departamento de Bioingeniería e Ingeniería Química
+25,57,Departamento de Bioingeniería e Ingeniería Química
+25,63,Departamento de Bioingeniería e Ingeniería Química
+25,67,Departamento de Bioingeniería e Ingeniería Química
+25,68,Departamento de Bioingeniería e Ingeniería Química
+25,69,Departamento de Bioingeniería e Ingeniería Química
+25,79,Departamento de Bioingeniería e Ingeniería Química
+25,83,Departamento de Bioingeniería e Ingeniería Química
+57,63,Departamento de Bioingeniería e Ingeniería Química
+57,67,Departamento de Bioingeniería e Ingeniería Química
+57,68,Departamento de Bioingeniería e Ingeniería Química
+57,69,Departamento de Bioingeniería e Ingeniería Química
+57,79,Departamento de Bioingeniería e Ingeniería Química
+57,83,Departamento de Bioingeniería e Ingeniería Química
+63,67,Departamento de Bioingeniería e Ingeniería Química
+63,68,Departamento de Bioingeniería e Ingeniería Química
+63,69,Departamento de Bioingeniería e Ingeniería Química
+63,79,Departamento de Bioingeniería e Ingeniería Química
+63,83,Departamento de Bioingeniería e Ingeniería Química
+67,68,Departamento de Bioingeniería e Ingeniería Química
+67,69,Departamento de Bioingeniería e Ingeniería Química
+67,79,Departamento de Bioingeniería e Ingeniería Química
+67,83,Departamento de Bioingeniería e Ingeniería Química
+68,69,Departamento de Bioingeniería e Ingeniería Química
+68,79,Departamento de Bioingeniería e Ingeniería Química
+68,83,Departamento de Bioingeniería e Ingeniería Química
+69,79,Departamento de Bioingeniería e Ingeniería Química
+69,83,Departamento de Bioingeniería e Ingeniería Química
+79,83,Departamento de Bioingeniería e Ingeniería Química
+7,10,Departamento de Ingeniería Civil y Ambiental
+7,37,Departamento de Ingeniería Civil y Ambiental
+7,42,Departamento de Ingeniería Civil y Ambiental
+7,64,Departamento de Ingeniería Civil y Ambiental
+7,72,Departamento de Ingeniería Civil y Ambiental
+7,84,Departamento de Ingeniería Civil y Ambiental
+10,37,Departamento de Ingeniería Civil y Ambiental
+10,42,Departamento de Ingeniería Civil y Ambiental
+10,64,Departamento de Ingeniería Civil y Ambiental
+10,72,Departamento de Ingeniería Civil y Ambiental
+10,84,Departamento de Ingeniería Civil y Ambiental
+37,42,Departamento de Ingeniería Civil y Ambiental
+37,64,Departamento de Ingeniería Civil y Ambiental
+37,72,Departamento de Ingeniería Civil y Ambiental
+37,84,Departamento de Ingeniería Civil y Ambiental
+42,64,Departamento de Ingeniería Civil y Ambiental
+42,72,Departamento de Ingeniería Civil y Ambiental
+42,84,Departamento de Ingeniería Civil y Ambiental
+64,72,Departamento de Ingeniería Civil y Ambiental
+64,84,Departamento de Ingeniería Civil y Ambiental
+72,84,Departamento de Ingeniería Civil y Ambiental
+9,22,Departamento de Ciencia de la Computación
+9,24,Departamento de Ciencia de la Computación
+9,31,Departamento de Ciencia de la Computación
+9,33,Departamento de Ciencia de la Computación
+9,45,Departamento de Ciencia de la Computación
+9,50,Departamento de Ciencia de la Computación
+9,52,Departamento de Ciencia de la Computación
+9,70,Departamento de Ciencia de la Computación
+9,75,Departamento de Ciencia de la Computación
+9,76,Departamento de Ciencia de la Computación
+9,81,Departamento de Ciencia de la Computación
+22,24,Departamento de Ciencia de la Computación
+22,31,Departamento de Ciencia de la Computación
+22,33,Departamento de Ciencia de la Computación
+22,45,Departamento de Ciencia de la Computación
+22,50,Departamento de Ciencia de la Computación
+22,52,Departamento de Ciencia de la Computación
+22,70,Departamento de Ciencia de la Computación
+22,75,Departamento de Ciencia de la Computación
+22,76,Departamento de Ciencia de la Computación
+22,81,Departamento de Ciencia de la Computación
+24,31,Departamento de Ciencia de la Computación
+24,33,Departamento de Ciencia de la Computación
+24,45,Departamento de Ciencia de la Computación
+24,50,Departamento de Ciencia de la Computación
+24,52,Departamento de Ciencia de la Computación
+24,70,Departamento de Ciencia de la Computación
+24,75,Departamento de Ciencia de la Computación
+24,76,Departamento de Ciencia de la Computación
+24,81,Departamento de Ciencia de la Computación
+31,33,Departamento de Ciencia de la Computación
+31,45,Departamento de Ciencia de la Computación
+31,50,Departamento de Ciencia de la Computación
+31,52,Departamento de Ciencia de la Computación
+31,70,Departamento de Ciencia de la Computación
+31,75,Departamento de Ciencia de la Computación
+31,76,Departamento de Ciencia de la Computación
+31,81,Departamento de Ciencia de la Computación
+33,45,Departamento de Ciencia de la Computación
+33,50,Departamento de Ciencia de la Computación
+33,52,Departamento de Ciencia de la Computación
+33,70,Departamento de Ciencia de la Computación
+33,75,Departamento de Ciencia de la Computación
+33,76,Departamento de Ciencia de la Computación
+33,81,Departamento de Ciencia de la Computación
+45,50,Departamento de Ciencia de la Computación
+45,52,Departamento de Ciencia de la Computación
+45,70,Departamento de Ciencia de la Computación
+45,75,Departamento de Ciencia de la Computación
+45,76,Departamento de Ciencia de la Computación
+45,81,Departamento de Ciencia de la Computación
+50,52,Departamento de Ciencia de la Computación
+50,70,Departamento de Ciencia de la Computación
+50,75,Departamento de Ciencia de la Computación
+50,76,Departamento de Ciencia de la Computación
+50,81,Departamento de Ciencia de la Computación
+52,70,Departamento de Ciencia de la Computación
+52,75,Departamento de Ciencia de la Computación
+52,76,Departamento de Ciencia de la Computación
+52,81,Departamento de Ciencia de la Computación
+70,75,Departamento de Ciencia de la Computación
+70,76,Departamento de Ciencia de la Computación
+70,81,Departamento de Ciencia de la Computación
+75,76,Departamento de Ciencia de la Computación
+75,81,Departamento de Ciencia de la Computación
+76,81,Departamento de Ciencia de la Computación
+16,28,Departamento de Ciencias
+16,38,Departamento de Ciencias
+16,47,Departamento de Ciencias
+16,49,Departamento de Ciencias
+16,56,Departamento de Ciencias
+16,58,Departamento de Ciencias
+16,59,Departamento de Ciencias
+16,65,Departamento de Ciencias
+16,66,Departamento de Ciencias
+16,71,Departamento de Ciencias
+16,90,Departamento de Ciencias
+28,38,Departamento de Ciencias
+28,47,Departamento de Ciencias
+28,49,Departamento de Ciencias
+28,56,Departamento de Ciencias
+28,58,Departamento de Ciencias
+28,59,Departamento de Ciencias
+28,65,Departamento de Ciencias
+28,66,Departamento de Ciencias
+28,71,Departamento de Ciencias
+28,90,Departamento de Ciencias
+38,47,Departamento de Ciencias
+38,49,Departamento de Ciencias
+38,56,Departamento de Ciencias
+38,58,Departamento de Ciencias
+38,59,Departamento de Ciencias
+38,65,Departamento de Ciencias
+38,66,Departamento de Ciencias
+38,71,Departamento de Ciencias
+38,90,Departamento de Ciencias
+47,49,Departamento de Ciencias
+47,56,Departamento de Ciencias
+47,58,Departamento de Ciencias
+47,59,Departamento de Ciencias
+47,65,Departamento de Ciencias
+47,66,Departamento de Ciencias
+47,71,Departamento de Ciencias
+47,90,Departamento de Ciencias
+49,56,Departamento de Ciencias
+49,58,Departamento de Ciencias
+49,59,Departamento de Ciencias
+49,65,Departamento de Ciencias
+49,66,Departamento de Ciencias
+49,71,Departamento de Ciencias
+49,90,Departamento de Ciencias
+56,58,Departamento de Ciencias
+56,59,Departamento de Ciencias
+56,65,Departamento de Ciencias
+56,66,Departamento de Ciencias
+56,71,Departamento de Ciencias
+56,90,Departamento de Ciencias
+58,59,Departamento de Ciencias
+58,65,Departamento de Ciencias
+58,66,Departamento de Ciencias
+58,71,Departamento de Ciencias
+58,90,Departamento de Ciencias
+59,65,Departamento de Ciencias
+59,66,Departamento de Ciencias
+59,71,Departamento de Ciencias
+59,90,Departamento de Ciencias
+65,66,Departamento de Ciencias
+65,71,Departamento de Ciencias
+65,90,Departamento de Ciencias
+66,71,Departamento de Ciencias
+66,90,Departamento de Ciencias
+71,90,Departamento de Ciencias
+21,32,Unknown Department
+21,51,Unknown Department
+21,73,Unknown Department
+21,82,Unknown Department
+21,88,Unknown Department
+32,51,Unknown Department
+32,73,Unknown Department
+32,82,Unknown Department
+32,88,Unknown Department
+51,73,Unknown Department
+51,82,Unknown Department
+51,88,Unknown Department
+73,82,Unknown Department
+73,88,Unknown Department
+82,88,Unknown Department
+30,34,Departamento de Ciencia de Datos y Sistemas de Información
+30,74,Departamento de Ciencia de Datos y Sistemas de Información
+34,74,Departamento de Ciencia de Datos y Sistemas de Información
