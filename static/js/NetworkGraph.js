@@ -6,28 +6,68 @@ function createNetworkGraph(containerId) {
   const container = document.querySelector(containerId);
   const width = container.clientWidth;
   const height = container.clientHeight;
-  const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+  const margin = { top: 60, right: 20, bottom: 20, left: 20 };
+  
+  // Crear contenedor principal
+  const mainContainer = d3.select(containerId)
+    .append('div')
+    .style('position', 'relative')
+    .style('width', '100%')
+    .style('height', '100%');
   
   // Crear SVG
-  const svg = d3.select(containerId)
+  const svg = mainContainer
     .append('svg')
     .attr('width', width)
-    .attr('height', height);
+    .attr('height', height)
+    .style('background', 'radial-gradient(circle at center, #f8fafc 0%, #e2e8f0 100%)');
     
   const g = svg.append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
     
-  // Agregar título
-  svg.append('text')
+  // Crear controles de interfaz
+  const controls = mainContainer
+    .append('div')
+    .style('position', 'absolute')
+    .style('top', '10px')
+    .style('left', '10px')
+    .style('z-index', '1000')
+    .style('background', 'rgba(255,255,255,0.95)')
+    .style('padding', '15px')
+    .style('border-radius', '8px')
+    .style('box-shadow', '0 4px 12px rgba(0,0,0,0.15)')
+    .style('font-family', 'sans-serif');
+  
+  // Título mejorado con gradiente
+  const titleGroup = svg.append('g');
+  
+  const titleGradient = svg.append('defs')
+    .append('linearGradient')
+    .attr('id', 'titleGradient')
+    .attr('x1', '0%')
+    .attr('y1', '0%')
+    .attr('x2', '100%')
+    .attr('y2', '0%');
+    
+  titleGradient.append('stop')
+    .attr('offset', '0%')
+    .attr('stop-color', '#0b3b66');
+    
+  titleGradient.append('stop')
+    .attr('offset', '100%')
+    .attr('stop-color', '#2563eb');
+  
+  titleGroup.append('text')
     .attr('x', width / 2)
-    .attr('y', 30)
+    .attr('y', 35)
     .attr('text-anchor', 'middle')
-    .style('font-size', '24px')
+    .style('font-size', '28px')
     .style('font-weight', 'bold')
-    .style('fill', '#0b3b66')
+    .style('fill', 'url(#titleGradient)')
+    .style('text-shadow', '2px 2px 4px rgba(0,0,0,0.3)')
     .text('Red de Colaboración Académica - Profesores UTEC');
 
-  // Crear definiciones para patrones de imagen
+  // Crear definiciones para patrones y filtros
   const defs = svg.append('defs');
   
   // Configuración de la simulación de fuerzas (parámetros fijos para mantener estabilidad)
@@ -46,12 +86,7 @@ function createNetworkGraph(containerId) {
     .range([1, 8]);
     
   // Escala de colores para departamentos (usando más colores distintivos)
-  const departmentColorScale = d3.scaleOrdinal([
-    '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd',
-    '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf',
-    '#aec7e8', '#ffbb78', '#98df8a', '#ff9896', '#c5b0d5',
-    '#c49c94', '#f7b6d3', '#c7c7c7', '#dbdb8d', '#9edae5'
-  ]);
+  const departmentColorScale = d3.scaleOrdinal(d3.schemeCategory10.concat(d3.schemeSet3).concat(d3.schemePaired));
 
   // Cargar datos de forma paralela
   Promise.all([
@@ -66,24 +101,29 @@ function createNetworkGraph(containerId) {
     const departments = [...new Set(nodesData.map(d => d.department))];
     departmentColorScale.domain(departments);
     
-    // Procesar nodos con posiciones iniciales determinísticas para evitar reorganización
+    const nodeConnections = {};
+    edgesData.forEach(edge => {
+      nodeConnections[edge.source_id] = (nodeConnections[edge.source_id] || 0) + 1;
+      nodeConnections[edge.target_id] = (nodeConnections[edge.target_id] || 0) + 1;
+    });
+    
+    // Procesar nodos con métricas mejoradas
     const nodes = nodesData.map(d => {
-      // Generar posiciones iniciales basadas en el ID para consistencia
-      const angle = (d.id * 137.508) % 360; // Golden angle para distribución uniforme
-      const radius = 200 + (d.id % 3) * 100;
-      const x = (width / 2) + radius * Math.cos(angle * Math.PI / 180);
-      const y = (height / 2) + radius * Math.sin(angle * Math.PI / 180);
+      const connections = nodeConnections[d.id] || 0;
+      const influence = (d.citations * 0.7) + (connections * 0.3);
       
       return {
         ...d,
-        radius: nodeScale.domain(d3.extent(nodesData, n => n.citations))(d.citations) || 25,
-        x: x,
-        y: y
+        connections: connections,
+        influence: influence,
+        radius: Math.max(15, Math.min(45, 15 + Math.sqrt(influence) * 2)),
+        x: width / 2 + (Math.random() - 0.5) * 100,
+        y: height / 2 + (Math.random() - 0.5) * 100
       };
     });
     
-    // Procesar enlaces (filtrar por peso mínimo para mejor visualización)
-    const minWeight = 0.65; // Solo mostrar conexiones fuertes
+    const minWeight = 0.65;
+    // Procesar enlaces con filtrado inteligente
     const links = edgesData
       .filter(d => d.weight >= minWeight)
       .map(d => ({
@@ -184,12 +224,14 @@ function createNetworkGraph(containerId) {
     // Eventos del mouse para el tooltip
     node
       .on('mouseover', function(event, d) {
+        const connections = nodeConnections[d.id] || 0;
         tooltip.style('visibility', 'visible')
           .html(`
             <strong>${d.name}</strong><br/>
             <strong>Departamento:</strong> ${d.department}<br/>
             <strong>Email:</strong> ${d.email}<br/>
             <strong>Citas:</strong> ${d.citations}<br/>
+            <strong>Conexiones:</strong> ${connections}<br/>
             <strong>Áreas de investigación:</strong> ${d.research_areas.substring(0, 150)}...
           `);
         
@@ -221,6 +263,67 @@ function createNetworkGraph(containerId) {
           .attr('stroke', '#999')
           .attr('stroke-opacity', 0.6);
       });
+    
+    // Controles de filtro por departamento
+    const filterContainer = controls.append('div')
+      .style('margin-bottom', '10px');
+    filterContainer.append('label')
+      .style('display', 'block')
+      .style('font-size', '12px')
+      .style('font-weight', 'bold')
+      .style('margin-bottom', '4px')
+      .text('Filtrar por departamento:');
+    const departmentSelect = filterContainer.append('select')
+      .style('width', '200px')
+      .style('padding', '6px')
+      .style('border', '1px solid #d1d5db')
+      .style('border-radius', '4px')
+      .on('change', function() { filterByDepartment(this.value); });
+    departmentSelect.append('option')
+      .attr('value', 'all')
+      .text('Todos');
+    departments.forEach(department => {
+      departmentSelect.append('option')
+        .attr('value', department)
+        .text(department);
+    });
+    
+    function filterByDepartment(department) {
+      const allowedNodes = department === 'all'
+        ? nodes
+        : nodes.filter(n => n.department === department);
+      const allowedIds = new Set(allowedNodes.map(n => n.id));
+      
+      if (department === 'all') {
+        node.style('display', null);
+        labels.style('display', null);
+        link.style('display', null);
+      } else {
+        node.style('display', d => allowedIds.has(d.id) ? null : 'none');
+        labels.style('display', d => allowedIds.has(d.id) ? null : 'none');
+        link.style('display', d => (allowedIds.has(d.source.id) && allowedIds.has(d.target.id)) ? null : 'none');
+      }
+      
+      if (allowedNodes.length) {
+        allowedNodes.forEach(n => {
+          n.x = width / 2;
+          n.y = height / 2;
+          n.vx = 0;
+          n.vy = 0;
+          n.fx = width / 2;
+          n.fy = height / 2;
+        });
+        
+        simulation.alpha(0.9).restart();
+        
+        setTimeout(() => {
+          allowedNodes.forEach(n => {
+            n.fx = null;
+            n.fy = null;
+          });
+        }, 400);
+      }
+    }
     
     // Iniciar simulación
     simulation
@@ -263,9 +366,9 @@ function createNetworkGraph(containerId) {
       d.fy = null;
     }
     
-    // Controles de zoom
+    // Controles de zoom mejorados
     const zoom = d3.zoom()
-      .scaleExtent([0.1, 4])
+      .scaleExtent([0.1, 8])
       .on('zoom', function(event) {
         g.attr('transform', event.transform);
       });
